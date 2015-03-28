@@ -27,6 +27,7 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 
 
 1. Introducción
+
   1.1 Un poco de historia
   1.2 Soporte
   1.3 Formato y ejemplos
