@@ -1,5 +1,7 @@
 #SCALABLE, un libro sobre SVG
 
+![portada de Scalable, un libro sobre SVG](https://github.com/jorgeatgu/scalable/blob/master/portada-scalable.png)
+
 A lo largo de 15 capítulos, 120 páginas y más de 70 ejemplos vamos a ver todo lo que podemos hacer con **SVG**.
 
 [Disponible para descargar gratuitamente desde 0$ en Leanpub](https://leanpub.com/scalable/)
