@@ -29,8 +29,11 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 1. Introducción
 
   1.1 Un poco de historia
+
   1.2 Soporte
+
   1.3 Formato y ejemplos
+
 2. Exportar y añadir SVG
   2.1 Adobe Illustrator 17.1.0
   2.2 Inkscape 0.48.2
