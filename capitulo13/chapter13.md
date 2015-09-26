@@ -45,7 +45,7 @@ A continuación el código que he empleado con [VoiceOver](https://www.apple.com
 		<rect x="460" y="280" width="200" height="100" fill="url(#patronTres)" stroke="black" stroke-width=".5"/>
 	</g>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IKrGu/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IKrGu/)
 
 A continuación os dejo un enlace a un vídeo donde podéis ver el ejemplo en funcionamiento utilizando **VoiceOver de OSX con Safari 7, Firefox 30, Chrome 35 y Opera 22**.
 
@@ -108,6 +108,6 @@ Es una herramienta web creada por **Doug Scheepers** para hacer más accesibles 
 
 Una vez que estamos en la web de [describler](http://describler.com/) tenemos que subir nuestros archivos **SVG**, cuando lo hayamos subido veremos todo el código de nuestro archivo a la derecha, la propia herramienta se encarga de añadir `<title>` y `<desc>` a cada uno de nuestros elementos, podemos incluir un título y una descripción a nuestros elementos y una vez que hayamos terminado podemos escuchar lo que interpreta un ***screenreader***, la voz es en inglés, así que cualquier texto en castellano estará interpretado por una voz inglesa. Por último tenemos la opción de descargarnos el archivo con todas las etiquetas que hemos incluído. Mucho ojo ya que deja el ***width*** y el ***height*** 100% de tamaño lo cual inhabilita el zoom en los navegadores.
 
-![](images/capitulo-13/wai-aria-describler.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-13/wai-aria-describler.jpg)
 
 
