@@ -95,24 +95,24 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
   9.4 Symbol
 10. [Image](https://github.com/jorgeatgu/scalable/blob/master/capitulo10/chapter10.md)
   10.1 Links
-11. DRY con group, defs y use
+11. [DRY con group, defs y use](https://github.com/jorgeatgu/scalable/blob/master/capitulo11/chapter11.md)
   11.1 Group
   11.2 Defs y use
   11.3 Usando CSS para aplicar estilos
   11.4 Sprites con SVG
   11.5 Métodos para aplicar estilos CSS a SVG
   11.6 Fragmentos identificadores
-12. Optimizar SVG
+12. [Optimizar SVG](https://github.com/jorgeatgu/scalable/blob/master/capitulo12/chapter12.md)
   12.1 SVG CLEANER
   12.2 SVGO
   12.3 SVGO en jorgeatgu.com
   12.4 Optimizando SVG con Grunt
   12.5 SVGO ONLINE
-13. WAI-ARIA en SVG
+13. [WAI-ARIA en SVG](https://github.com/jorgeatgu/scalable/blob/master/capitulo13/chapter13.md)
   13.1 SVG 1.1
   13.2 SVG 2
   13.3 Describler
-14. Anexo Soporte
+14. [Anexo Soporte](https://github.com/jorgeatgu/scalable/blob/master/capitulo14/chapter14.md)
   14.1 Capítulo 2 - Exportar y añadir SVG
   14.2 Capítulo 3 - viewBox
   14.3 Capítulo 4 - Las formas básicas
