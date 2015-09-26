@@ -20,7 +20,7 @@ Con el atributo ***height*** determinamos la altura del patrón.
 
 Vamos a ver unos cuantos ejemplos con las diferentes opciones que tenemos a nuestra disposición.
 
-![](images/capitulo-9/Capitulo-9-patterns.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-9/Capitulo-9-patterns.jpg)
 
 {lang="html", linenos="off"}
 ~~~~~~~
@@ -73,7 +73,7 @@ Con el atributo ***height*** determinamos el alto del `<mask>`. Por defecto su v
 
 En el ejemplo que vamos a ver a continuación aplicamos el `<mask>` con forma de círculo a una imagen, he dejado por defecto todos los valores para que se aprecie mejor el resultado.
 
-![](images/capitulo-9/Capitulo-9-mask.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-9/Capitulo-9-mask.jpg)
 
 {lang="html", linenos="off"}
 ~~~~~~~
@@ -96,7 +96,7 @@ Los trazados de recorte o máscaras de recorte se definen a través de la etique
 
 En el ejemplo que vamos a ver el trazado de recorte es un círculo que actúa sobre un rectángulo, el resultado es un semicírculo ya que en el trazado de recorte le hemos indicado que comience en la coordenada 390 del eje horizontal. Para que se aprecie mejor donde actúa el trazado de recorte he creado otro rectángulo de las mismas medidas pero solamente con un borde negro.
 
-![](images/capitulo-9/Capitulo-9-clipPath.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-9/Capitulo-9-clipPath.jpg)
 
 {lang="html", linenos="off"}
 ~~~~~~~
@@ -113,7 +113,7 @@ En el ejemplo que vamos a ver el trazado de recorte es un círculo que actúa so
 
 Vamos a ver otro ejemplo donde vamos a utilizar `<clipPath>` con texto, este recorte lo vamos a aplicar a un `<g>`, el cual esta compuesto por dos ***crimson*** y el otro de color ***yellowgreen***.
 
-![](images/capitulo-9/Capitulo-9-clipPathtexto.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-9/Capitulo-9-clipPathtexto.jpg)
 
 {lang="html", linenos="off"}
 ~~~~~~~
@@ -139,7 +139,7 @@ El elemento ***symbol*** es usado para definir objetos gráficos que luego vamos
 
 Vamos a ver un ejemplo donde creamos un rectángulo con cuatro rectángulos cada uno de un color diferente.
 
-![](images/capitulo-9/Capitulo-9-symbol.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-9/Capitulo-9-symbol.jpg)
 
 {lang="html", linenos="off"}
 ~~~~~~~
