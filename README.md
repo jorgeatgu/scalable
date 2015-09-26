@@ -38,11 +38,11 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
   2.5 Soporte para IE8 y Android 2.3
   2.6 Añadir SVG a WordPress con Plugin
   2.7 Añadir SVG a WordPress sin Plugin
-3. Etiqueta principal
+3. [Etiqueta principal](https://github.com/jorgeatgu/scalable/blob/master/capitulo3/chapter3.md)
   3.1 Sistema de coordenadas y unidades de medida
   3.2 viewBox
   3.3 preserveAspectRatio
-4. Las formas básicas
+4. [Las formas básicas](https://github.com/jorgeatgu/scalable/blob/master/capitulo4/chapter4.md)
   4.1 Fill
   4.2 Stroke
   4.3 Rect
@@ -52,18 +52,18 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
   4.7 Polyline
   4.8 Polygon
   4.9 Path
-5. Texto
+5. [Texto](https://github.com/jorgeatgu/scalable/blob/master/capitulo5/chapter5.md)
   5.1 Text
   5.2 Tspan
   5.3 textPath
-6. Transformaciones
+6. [Transformaciones](https://github.com/jorgeatgu/scalable/blob/master/capitulo6/chapter6.md)
   6.1 Translate
   6.2 Rotate
   6.3 Scale
   6.4 SkewX
   6.5 SkewY
   6.6 Matrix
-7. Filtros
+7. [Filtros](https://github.com/jorgeatgu/scalable/blob/master/capitulo7/chapter7.md)
   7.1 feFlood
   7.2 feTurbulence
   7.3 feImage
@@ -83,17 +83,17 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
   7.17 feComposite
   7.18 feTile
   7.19 Efectos de filtro sobre una fotografía
-8. Degradados
+8. [Degradados](https://github.com/jorgeatgu/scalable/blob/master/capitulo8/chapter8.md)
   8.1 linearGradient
   8.2 radialGradient
   8.3 spreadMethod
   8.4 gradientTransform
-9. Patterns, masks, clip-path y symbol
+9. [Patterns, masks, clip-path y symbol](https://github.com/jorgeatgu/scalable/blob/master/capitulo9/chapter9.md)
   9.1 Patterns
   9.2 Mask
   9.3 Clip-Path
   9.4 Symbol
-10. Image
+10. [Image](https://github.com/jorgeatgu/scalable/blob/master/capitulo10/chapter10.md)
   10.1 Links
 11. DRY con group, defs y use
   11.1 Group
