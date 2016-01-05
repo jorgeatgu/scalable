@@ -8,21 +8,21 @@ A continuación sólo vamos a ver el proceso de exportar desde cada programa y e
 
 Una vez que tenemos abierto nuestro archivo vamos a ir al menú **Archivo** y vamos a hacer click en **Guardar como**
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-menu-archivo-illustrator.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-menu-archivo-illustrator.jpg)
 
 En el menú de **Guardar como**, vamos a la pestaña **formato** donde seleccionamos **SVG** y le damos a **Guardar**
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-guardar-como-illustrator.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-guardar-como-illustrator.jpg)
 
 Ahora en el menú de **opciones SVG** vamos a ir a decimales y cambiamos **3 decimales por 1 decimal**, con esto conseguimos archivos con menos código ya que las medidas de los objetos y las coordenadas de los mismos solamente se van a exportar con 1 decimal, no vamos a perder precisión, podéis hacer la prueba comparando un archivo que este exportado con 7 decimales y otro con 1 decimal, no vais a notar la diferencia.
 
 También tenemos la opción **flexible** que lo que hace es quitar de la etiqueta principal el ***width*** y el ***height***, con esto conseguimos que el archivo se vaya adaptando a la pantalla donde se muestra, las consecuencias de esta acción es que a nuestros archivos no vamos a poder aplicarles zoom desde los navegadores.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-opciones-illustrator.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-opciones-illustrator.jpg)
 
 La última opción que vamos a ver de este menú es la de código **SVG**, si pinchamos en ella nos abrirá nuestro editor de texto, en el caso de **OSX** se abre ***TextEdit*** y aquí vamos a previsualizar el código que va a generar el archivo.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-codigo-illustrator.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-codigo-illustrator.jpg)
 
 Por último vamos a hacer click en OK y ya tenemos guardado nuestro archivo en formato **SVG**.
 
@@ -32,7 +32,7 @@ En diciembre de 2015 Adobe publicó la version 19.2 de Adobe Illustrator con una
 
 Todas estas novedades están disponibles a través de una nueva opción que esta situada en el menú Archivo > Exportar. Cuando seleccionamos esta opción simplemente tenemos que seleccionar en el desplegable la opción **SVG**. Una vez seleccionada se nos desplegará un menú como el que vemos en la imagen.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-svg-opciones.png)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-svg-opciones.png)
 
 Vamos a ver algunas de esta opciones.
 
@@ -76,11 +76,11 @@ Hasta ahora Illustrator a la hora de exportar un rectángulo redondeado siempre 
 
 Una vez que tenemos abierto nuestro archivo vamos a ir al menú **Archivo** y vamos a hacer click en **Guardar como**
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-menu-archivo-inkscape.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-menu-archivo-inkscape.jpg)
 
 En el menú de **Guardar como** vamos a la pestaña **formato**, tenemos varias opciones para elegir como **SVG de inkscape** y **SVG plano** estas dos opciones también tienen disponible su versión comprimida. Vamos a elegir **SVG de inkscape**.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-menu-guardar-inkscape.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-menu-guardar-inkscape.jpg)
 
 Por último vamos a pinchar en **SAVE** y ya tenemos guardado nuestro archivo en formato **SVG**. Con **Inkscape** no tenemos opción alguna para modificar los parámetros del archivo.
 
@@ -88,19 +88,19 @@ Por último vamos a pinchar en **SAVE** y ya tenemos guardado nuestro archivo en
 
 Una vez que tenemos abierto nuestro archivo vamos a ir al menú **File** y vamos a hacer click en **Export**
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-menu-sketch.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-menu-sketch.jpg)
 
 Con **Sketch** no nos va a saltar ningún menú, tenemos que ir a la parte derecha donde esta ubicada la sección **Export**
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-menu-sketch2.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-menu-sketch2.jpg)
 
 Ahora en la pestaña **formato** seleccionamos **SVG** y hacemos click en el botón donde pone **Export**
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-boton-sketch.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-boton-sketch.jpg)
 
 Ahora nos saltará un menú donde volvemos a pinchar en **Export** y ya tenemos nuestro archivo en formato **SVG**.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/exportar-sketch.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/exportar-sketch.jpg)
 
 Desde su versión **3.0 Sketch** genera todas las medidas y coordenadas sin decimales, lo cual hace que nuestros archivos sean más legibles, tengan menos código y por lo tanto ocupen menos espacio.
 
@@ -263,7 +263,7 @@ background: url(logo-jorge.png) no-repeat;
 
 A continuación un enlace a la demo en CodePen donde podeis comprobar que el **SVG** ha sido sustituido por su versión en **PNG** y se ve sin ningún problema en Internet Explorer 8. Si haceis click en la pestaña del editor y vais a la última opción *Open on CrossBrowserTesting* vais a poder testear el ejemplo en IE8, IE7 y Android 2.3.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/fallback-javascript.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/fallback-javascript.jpg)
 
 [![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/gbxEGr/)
 
@@ -303,4 +303,4 @@ add_filter( 'upload_mimes', 'cc_mime_types' );
 
 Ahora si vamos a la galería nos va a dejar permitir añadir archivos en formato **SVG**.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/capitulo-2/wordpress-galeria-svg.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-2/wordpress-galeria-svg.jpg)
