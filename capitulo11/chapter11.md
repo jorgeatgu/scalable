@@ -22,7 +22,7 @@ Para mover un grupo vamos a tener que recurrir a `transform=”translate”` ya 
 	<rect x="300" y="30" width="40" height="40"/>
 </g>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/qexKf/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/qexKf/)
 
 
 En el anterior ejemplo podemos ver como hemos indicado a la vez el mismo color y las mismas transformaciones a todos los rectángulos.
@@ -53,7 +53,7 @@ Aunque su uso no es obligatorio la **W3C** recomienda utilizar estas etiquetas p
 <use xlink:href="#circulo" x="600" y="200" fill="darkslategrey"/>
 <use xlink:href="#rectangulo"x="700" y="300" fill="navajowhite"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Cuavg/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Cuavg/)
 
 En el ejemplo anterior hemos definido entre las etiquetas `<defs></defs>` un elemento `<rect>` con un `id=”rectangulo”` y un elemento `<circle>` con un `id=”circulo”`. Ahora vamos a llamar a estos dos elementos tantas veces como queramos a través de la etiqueta `<use>` y para ello vamos a utilizar el atributo `xlink:href` con la # antes del nombre del ***id***, también le indicamos la posición del elemento a través de las coordenadas horizontal y vertical.
 
@@ -81,7 +81,7 @@ Vamos a ver qué podemos hacer si combinamos `<defs>` + `<use>` + `<g>`
 <use xlink:href="#cuadrados" transform="scale(.5)"/>
 <use xlink:href="#cuadrados" y="400" opacity=".5"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/lHFAi/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/lHFAi/)
 
 En este ejemplo con cinco etiquetas `<use>` hemos creado cinco grupos de cinco rectángulos cada uno, y a cada grupo le hemos dado una propiedad diferente.
 
@@ -149,7 +149,7 @@ fill: url(#degradado);
 <rect class="patron" width="200" height="200" x="500" y="150"/>
 <rect class="degradado" width="200" height="200" x="750" y="150"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xCebt/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xCebt/)
 
 ####Soporte
 
@@ -430,7 +430,7 @@ background-image: url('http://jorgeatgu.com/libro/ejemplos/images/iconos.svg#cod
 }
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/rqKBg/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/rqKBg/)
 
 La demo en mi web: [DEMO](jorgeatgu.com/libro/ejemplos/fragments-iconos.html)
 

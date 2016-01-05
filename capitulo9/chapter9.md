@@ -41,7 +41,7 @@ Vamos a ver unos cuantos ejemplos con las diferentes opciones que tenemos a nues
 <rect x="460" y="160" width="200" height="100" fill="url(#patronDos)" stroke="black" stroke-width=".5"/>
 <rect x="460" y="280" width="200" height="100" fill="url(#patronTres)" stroke="black" stroke-width=".5"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/EFycv/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/EFycv/)
 
 En el primer rectángulo el patrón tiene `patternUnits="userSpaceOnUse"` con lo cual el patrón se repetirá a lo largo del rectángulo.
 
@@ -84,7 +84,7 @@ En el ejemplo que vamos a ver a continuación aplicamos el `<mask>` con forma de
 </defs>
 <image width="100%" height="100%" xlink:href="smilipostbox.svg" mask="url(#mask)"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/egqKC/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/egqKC/)
 
 ####Soporte
 
@@ -108,7 +108,7 @@ En el ejemplo que vamos a ver el trazado de recorte es un círculo que actúa so
 <rect width="400" height="250" clip-path="url(#recorte)" fill="crimson"/>
 <rect width="400" height="250" fill="none" stroke="black" stroke-width="1"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/bBaez/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/bBaez/)
 
 
 Vamos a ver otro ejemplo donde vamos a utilizar `<clipPath>` con texto, este recorte lo vamos a aplicar a un `<g>`, el cual esta compuesto por dos ***crimson*** y el otro de color ***yellowgreen***.
@@ -127,7 +127,7 @@ Vamos a ver otro ejemplo donde vamos a utilizar `<clipPath>` con texto, este rec
     <rect x="0" y="78" width="1000px" height="100px" fill="yellowgreen"/>
 </g>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/DuErx/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/DuErx/)
 
 ####Soporte
 
@@ -155,7 +155,7 @@ Vamos a ver un ejemplo donde creamos un rectángulo con cuatro rectángulos cada
 <use xlink:href="#prueba" x="400" y="350"/>
 
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/iwCuk/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/iwCuk/)
 
 ####Soporte
 

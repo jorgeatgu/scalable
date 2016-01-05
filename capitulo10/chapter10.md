@@ -24,7 +24,7 @@ Con la etiqueta `<a>` vamos a crear enlaces en nuestros documentos **SVG**. Al i
 	<text x="440" y="280" fill="white">jorgeATGU</text>
 </a>
 ~~~~~~~
-[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/DItFB/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/DItFB/)
 
 Podemos agregar un título o una descripción al enlace a través del atributos `xlink:title=””` aunque desde la propia **W3C** nos recomiendan que para agregar un título es mejor utilizar la etiqueta ***title*** que hemos visto anteriormente.
 
@@ -53,7 +53,7 @@ Por último un ejemplo con todos los atributos que tenemos disponible para `targ
 	<text x="750" y="280" fill="white">_blank</text>
 </a>
 ~~~~~~~
-[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/JCqyt/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/JCqyt/)
 
 ####Soporte
 

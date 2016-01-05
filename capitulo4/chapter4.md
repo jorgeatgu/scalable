@@ -32,7 +32,7 @@ La opacidad del relleno la podemos modificar a través del atributo `fill-opacit
 <rect x="410" y="370" fill="coral" width="300" height="100" fill-opacity=".2"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/GfDEy/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/GfDEy/)
 
 También tenemos la posibilidad a través del atributo ***fill-rule*** de determinar si una parte del trazado forma parte del relleno o esta fuera de el, para ello tenemos ***nonzero*** que es su valor por defecto y ***evenodd***, con el cual conseguimos el efecto del primer rectángulo que vemos en la imagen.
 
@@ -53,7 +53,7 @@ M353.4,401.8h-118c-6.6,0-12-5.4-12-12v-118c0-6.6,5.4-12,12-12 h118c6.6,0,12,5.4,
 
 La primera figura tiene la propiedad evenodd por lo tanto el segundo rectángulo se va a quedar sin rellenar.
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/bEBHm/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/bEBHm/)
 
 
 ## Stroke
@@ -75,7 +75,7 @@ Con el atributo ***stroke-dasharray*** vamos a definir la longitud de las línea
 <line x1="100" x2="500" y1="150" y2="150" stroke="green" stroke-width="15" stroke-dasharray="15 5"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/EnpBv/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/EnpBv/)
 
 Con el atributo ***stroke-dashoffset*** vamos a definir la distancia a la que queremos que comiencen los guiones. Este atributo admite valores negativos y lo podemos expresar en porcentajes.
 
@@ -87,7 +87,7 @@ Con el atributo ***stroke-dashoffset*** vamos a definir la distancia a la que qu
 <line x1="100" x2="500" y1="100" y2="100" stroke="coral" stroke-width="15" stroke-dasharray="15 10" stroke-dashoffset="-405"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/ptzhK/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/ptzhK/)
 
 Con el atributo ***stroke-linecap*** podemos modificar la forma inicial y final de la línea, para ello disponemos de tres opciones, la primera es ***butt*** que es el valor por defecto, la segunda ***round*** que redondea la forma y aumenta el tamaño de la línea y por último ***square*** que mantiene la forma rectangular pero también aumenta el tamaño de la línea.
 
@@ -100,7 +100,7 @@ Con el atributo ***stroke-linecap*** podemos modificar la forma inicial y final 
 <line x1="100" x2="500" y1="150" y2="150" stroke="green" stroke-width="25" stroke-linecap="square"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/msxhd/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/msxhd/)
 
 Con el atributo ***stroke-line-join*** vamos a determinar la forma que van a tener las esquinas de los trazados y de las formas básicas. Su valor por defecto es ***miter***, para redondearlas tenemos ***round*** y para que tengan forma de bisel tenemos ***bevel***.
 
@@ -113,7 +113,7 @@ Con el atributo ***stroke-line-join*** vamos a determinar la forma que van a ten
 <rect width="200" height="200" x="880" y="150" fill="none" stroke="green" stroke-width="40" stroke-linejoin="bevel"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IalzF/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IalzF/)
 
 
 Con el atributo ***stroke-miterlimit*** vamos a comparar la longitud del ángulo con la anchura del trazado. Cuando se supere el valor que le hemos dado la unión sera biselada. Su valor por defecto es de 4.
@@ -128,7 +128,7 @@ Con el atributo ***stroke-miterlimit*** vamos a comparar la longitud del ángulo
 </g>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/KirLC/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/KirLC/)
 
 ## Rect
 
@@ -158,7 +158,7 @@ Para que los rectángulos tengan las esquinas redondeadas tenemos los atributos 
 <rect x="500" y="300" width="150" height="150" fill="blue" stroke="crimson" stroke-width="10" rx="50"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/rBwfo/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/rBwfo/)
 
 
 ## Circle
@@ -184,7 +184,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde del círculo
 <circle r="90" cx="630" cy="230" fill="crimson" stroke="navajowhite" stroke-width="10"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Frlnx/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Frlnx/)
 
 ## Ellipse
 
@@ -211,7 +211,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde de la elipse
 <ellipse rx="90" ry="230" cx="630" cy="280" fill="crimson" stroke="navajowhite" stroke-width="10"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Gbzit/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Gbzit/)
 
 ## Line
 
@@ -238,7 +238,7 @@ Con el atributo ***stroke-width*** determinamos el grosor de la línea.
 <line x1="400" y1="200" x2="700" y2="200" stroke="crimson" stroke-width="10"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/dFLlh/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/dFLlh/)
 
 Tenemos un camino más fácil para generar solamente una línea, para ello tenemos que utilizar los atributos ***x2*** e ***y2***, hay que tener en cuenta que de esta manera no vamos a poder obtener una línea recta.
 
@@ -249,7 +249,7 @@ Tenemos un camino más fácil para generar solamente una línea, para ello tenem
 <line x2="700" y2="200" stroke="crimson" stroke-width="10"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/zAFoJ/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/zAFoJ/)
 
 
 ## Polyline
@@ -273,7 +273,7 @@ Antes de continuar voy a hacer una aclaración, como podéis ver en la lista de 
 <polyline points="100,140 140,140 140,180 180,180 180,220 220,220 220,260" fill="none" stroke="crimson" stroke-width="20" />
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/zLvEk/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/zLvEk/)
 
 
 ## Polygon
@@ -295,7 +295,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde del polígon
 <polygon points="200,100 250,180 10,210" fill="none" stroke="crimson" stroke-width="20"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/HbJlq/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/HbJlq/)
 
 ## Path
 
@@ -313,7 +313,7 @@ Estas dos líneas como podemos apreciar en el código comparten las mismas coord
 <path stroke-width="10" d="M425,225 L475,275 L575,175 L675,275" stroke="blue" fill="none"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/KLsjI/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/KLsjI/)
 
 
 ### Moveto
@@ -357,7 +357,7 @@ Con `L575,175` = le indicamos que dibuje una línea hasta la coordenada `x=”57
 
 Con `L675,275` = le indicamos que dibuje una línea hasta la coordenada `x=”675 y=”275”`
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/vHAKB/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/vHAKB/)
 
 ### Horizontal Lineto
 
@@ -393,7 +393,7 @@ Vamos a ver los dos comandos en el mismo ejemplo.
 <path stroke-width="10" d="M300,10 V500" stroke="blue"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/pLCts/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/pLCts/)
 
 ### Curveto
 
@@ -416,7 +416,7 @@ En el ejemplo que vamos a ver a continuación el trazado comienza con `M130,130`
 <path stroke-width="10" d="M130 130 C440 440, 560 540, 770 430" stroke="crimson" fill="none"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/GvEIe/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/GvEIe/)
 
 ### Smooth curveto
 
@@ -437,7 +437,7 @@ Los comandos en minúsculas indican posiciones relativas.
 <path stroke-width="10" d="M130 130 s440 440, 560 50" stroke="crimson" fill="none"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/cApLg/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/cApLg/)
 
 ### Quadratic Bezier curveto y Smooth quadratic bezier curveto
 
@@ -463,7 +463,7 @@ La coordenada de T(smooth quadratic bezier) corresponde a ***x,y*** en este caso
 <path stroke-width="10" d="M200,300 Q400,50 600,300 T1000,300" fill="none" stroke="crimson" stroke-width="2"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Jfgjh/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Jfgjh/)
 
 ### Elliptical arc curve
 
@@ -481,7 +481,7 @@ Con el comando ***arc*** dibujamos un arco elíptico desde las coordenadas ***x*
 <path stroke-width="10" d="M343,267 A150,203 0 1,0 31,359 z" stroke="crimson" fill="none"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/oyuir/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/oyuir/)
 
 Este arco lo he realizado con una herramienta online creada por **Benjamin Ranck** que ayuda bastante a comprender el funcionamiento de este comando, a continuación os dejo el [enlace](http://blog.benjaminranck.com/2011/07/28/arc-paths-in-svg).
 

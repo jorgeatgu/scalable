@@ -59,7 +59,7 @@ Ahora vamos a ver las diferentes opciones, recordad que sólo vamos a ver las et
 <rect x="500" y="320" fill="url(#objectBounding2)" stroke="black" stroke-width=".5px" width="300" height="100"/>
 
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/iboLr/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/iboLr/)
 
 Al primer rectángulo le aplicamos el degradado ***#userspace*** el cual tiene el atributo ***gradientUnits*** con ***userSpaceOnUse***, el degradado ocupará todo el documento.
 
@@ -103,7 +103,7 @@ Una vez definidas las propiedades de nuestro degradado vamos a pasar a definir q
 <rect x="550" y="185" fill="url(#segundo)" stroke="black" stroke-width=".5px" width="150" height="150" rx="20"/>
 <rect x="550" y="370" fill="url(#tercero)" stroke="black" stroke-width=".5px" width="150" height="150" rx="20"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/fzmHi/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/fzmHi/)
 
 ####Soporte
 
@@ -140,7 +140,7 @@ Vamos a ver un ejemplo utilizando todos los valores con este orden ***pad repeat
 <rect x="500" y="180" fill="url(#dos)" stroke="black" width="300" height="100"/>
 <rect x="500" y="320" fill="url(#tres)" stroke="black" width="300" height="100"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/kmsGi/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/kmsGi/)
 
 ####Soporte
 
@@ -157,7 +157,7 @@ En el ejemplo que vamos a ver a continuación he aplicado al mismo degradado un 
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-8/Capitulo-8-gradientTransform.jpg)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/nxyHE/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/nxyHE/)
 
 {lang="html", linenos="off"}
 ~~~~~~~

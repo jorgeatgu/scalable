@@ -45,7 +45,7 @@ A continuación el código que he empleado con [VoiceOver](https://www.apple.com
 		<rect x="460" y="280" width="200" height="100" fill="url(#patronTres)" stroke="black" stroke-width=".5"/>
 	</g>
 ~~~~~~~
-[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IKrGu/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IKrGu/)
 
 A continuación os dejo un enlace a un vídeo donde podéis ver el ejemplo en funcionamiento utilizando **VoiceOver de OSX con Safari 7, Firefox 30, Chrome 35 y Opera 22**.
 

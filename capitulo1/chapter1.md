@@ -44,7 +44,7 @@ Para editar los archivos que están en **CodePen** no es obligatorio estar regis
 
 Para acceder a los ejemplos alojados en **CodePen** hay que pinchar en el logo de **CodePen**.
 
-![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)
 
 Cuando hacemos click vamos a ver una pantalla como esta.
 

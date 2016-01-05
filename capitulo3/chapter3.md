@@ -32,7 +32,7 @@ En mi opinión como no sabemos el camino que va a recorrer nuestro **SVG** y com
      <object data="cuadradosin.svg" type="image/svg+xml"></object>
 </div>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/hEKck/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/hEKck/)
 
 En el ejemplo se ve lo que ocurre cuando tratamos de incluir un **SVG** en el HTML que no contiene los ***namespaces***, en este caso los archivos que no contienen ***namespaces*** son `sinsobre.svg` y `cuadradosin.svg`.
 
@@ -92,7 +92,7 @@ En la siguiente imagen vamos a ver la comparación entre los dos ***viewBox***, 
 
 ![](images/capitulo-3/Capitulo-3-viewBox.jpg)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/jGBqf)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/jGBqf)
 
 ####Soporte
 
@@ -152,7 +152,7 @@ En el código que vais a ver a continuación para que se asocie mejor el efecto 
 </svg>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/vHrGm/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/vHrGm/)
 
 ####Soporte
 
@@ -185,7 +185,7 @@ En el código que vais a ver a continuación para que se asocie mejor el efecto 
 </svg>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/GHifr/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/GHifr/)
 
 ####Soporte
 

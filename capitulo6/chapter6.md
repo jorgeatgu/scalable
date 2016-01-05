@@ -25,7 +25,7 @@ En el código que vamos a ver a continuación los dos rectángulos están posici
 <rect x="500" y="100" width="150" height="150" fill="blue" transform="translate(60 100)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xbrwe/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xbrwe/)
 
 
 ## Rotate
@@ -52,7 +52,7 @@ Al cuarto rectángulo de color cyan lo vamos a rotar desde su centro con `transf
 <rect x="500" y="100" width="150" height="150" fill="cyan" transform="rotate(20 625 175)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/hcksx/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/hcksx/)
 
 ## Scale
 
@@ -66,7 +66,7 @@ Con esta transformación vamos a escalar el objeto, para ello contamos con dos v
 <rect x="500" y="100" width="150" height="150" fill="blue" transform="scale(2 3)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/osfiE/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/osfiE/)
 
 ## SkewX
 
@@ -82,7 +82,7 @@ En el ejemplo que vamos a ver a continuación se puede apreciar como el rectáng
 <rect x="500" y="300" width="150" height="150" fill="blue" transform="skewX(20)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/jtHlv/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/jtHlv/)
 
 ## SkewY
 
@@ -98,7 +98,7 @@ En el ejemplo que vamos a ver a continuación se puede apreciar como el rectáng
 <rect x="500" y="300" width="150" height="150" fill="blue" transform="skewY(10)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/yeICs/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/yeICs/)
 
 ## Matrix
 
@@ -166,7 +166,7 @@ Así que después de todas las operaciones el resultado que se aplicará al elem
 <line x1="5" y1="25" x2="20" y2="40" stroke-width="40px" stroke="blue" transform="matrix(1,2,1,4,5,1)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/biEhe/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/biEhe/)
 
 ####Soporte
 

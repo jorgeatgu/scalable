@@ -265,7 +265,7 @@ A continuación un enlace a la demo en CodePen donde podeis comprobar que el **S
 
 ![](images/capitulo-2/fallback-javascript.jpg)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/gbxEGr/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/gbxEGr/)
 
 
 ## Añadir SVG a WordPress con Plugin

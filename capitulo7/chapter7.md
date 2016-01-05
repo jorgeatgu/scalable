@@ -83,7 +83,7 @@ Con este filtro conseguimos rellenar el objeto con un color. Vamos a definir el 
 <rect x="500" y="200" width="300" height="300" fill="navajowhite" filter="url(#feflood)"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/mqbuG/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/mqbuG/)
 
 ####Soporte
 
@@ -138,7 +138,7 @@ Con ***type*** tenemos dos valores, por defecto su valor es ***Turbulunce*** y e
 <image filter="url(#seis)" xlink:href="http://jorgeatgu.com/libro/images/zgzsky.jpg" width="200" height="200" y="300" x="750"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/jKHcx/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/jKHcx/)
 
 ####Soporte
 
@@ -167,7 +167,7 @@ En el ejemplo que vamos a ver a continuación se utiliza el filtro ***feTurbulen
 <rect fill="none" filter="url(#imagenconturbulencias)" width="200" height="200" x="200" y="200"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/uEFKG/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/uEFKG/)
 
 ####Soporte
 
@@ -219,7 +219,7 @@ Para ***luminanceToAplha*** no necesitamos ningún valor.
 <image filter="url(#luminanceToAlpha)" xlink:href="zgzsky.jpg" width="200" height="200" y="150" x="950"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/atqiB/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/atqiB/)
 
 ####Soporte
 
@@ -279,7 +279,7 @@ Vamos a ver los diferentes efectos de los tipos sobre la misma imagen.
 <image filter="url(#gamma)" xlink:href="zgzsky.jpg" width="200" height="200" y="400" x="550"/>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/HLmJd/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/HLmJd/)
 
 ####Soporte
 
@@ -322,7 +322,7 @@ En ***kernelMatrix*** vamos a indicar todos los valores, estará condicionado al
 <image filter="url(#uno)" xlink:href="zgzsky.jpg" width="300" height="300" y="150" x="100"/>
 <image filter="url(#dos)" xlink:href="zgzsky.jpg" width="300" height="300" y="150" x="700"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/imgjn/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/imgjn/)
 
 ####Soporte
 
@@ -356,7 +356,7 @@ Con este filtro conseguimos el efecto de desenfoque gaussiano, si has utilizado 
 <image filter="url(#dos)" xlink:href="zgzsky.jpg" width="200" height="200" y="200" x="450"/>
 <image filter="url(#tres)" xlink:href="zgzsky.jpg" width="200" height="200" y="200" x="750"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Dusbv/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Dusbv/)
 
 ####Soporte
 
@@ -392,7 +392,7 @@ Con este filtro vamos a transformar los píxeles de una imagen en formas geomét
 <image filter="url(#dos)" xlink:href="zgzsky.jpg" width="200" height="200" y="200" x="450"/>
 <image filter="url(#tres)" xlink:href="zgzsky.jpg" width="200" height="200" y="200" x="750"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/FyJud/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/FyJud/)
 
 ####Soporte
 
@@ -430,7 +430,7 @@ Con este filtro vamos a generar un efecto de engorde o de adelgazamiento del obj
 <image filter="url(#tres)" xlink:href="zgzsky.jpg" width="200" height="200" y="300" x="150"/>
 <image filter="url(#cuatro)" xlink:href="zgzsky.jpg" width="200" height="200" y="300" x="450"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/gfBos/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/gfBos/)
 
 ####Soporte
 
@@ -470,7 +470,7 @@ Con este filtro vamos a desplazar a lo largo del documento la imagen, es ideal p
 </text>
 <image filter="url(#dos)" xlink:href="zgzsky.jpg" width="200" height="200" y="150" x="500"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xLiqh/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xLiqh/)
 
 ####Soporte
 
@@ -499,11 +499,11 @@ Con este filtro vamos a obtener imágenes mucho más claras, dispone de los atri
 <image xlink:href="zgzsky.jpg" x="0" filter="url(#uno)" width="50%" height="100%"/>
 <image xlink:href="zgzsky.jpg" x="50%" width="50%" height="100%"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/ivDdF/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/ivDdF/)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IuBDk/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/IuBDk/)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/huJKG/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/huJKG/)
 
 ####Soporte
 
@@ -534,9 +534,9 @@ Con este filtro vamos a conseguir un efecto similar al del sol, tenemos los atri
 <image xlink:href="zgzsky.jpg" x="0" filter="url(#uno)" width="50%" height="100%"/>
 <image xlink:href="zgzsky.jpg" x="50%" filter="url(#uno)" width="50%" height="100%"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/lnxIF/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/lnxIF/)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/tGfhu/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/tGfhu/)
 
 ####Soporte
 
@@ -567,9 +567,9 @@ Con este filtro vamos a añadir una luz focal a las imágenes, tenemos ***los at
 <image xlink:href="zgzsky.jpg" x="0" fill="none" filter="url(#uno)" width="50%" height="100%"/>
 <image xlink:href="zgzsky.jpg" x="50%" width="50%" height="100%"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Lhixq/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/Lhixq/)
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/LhnrJ/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/LhnrJ/)
 
 
 ####Soporte
@@ -627,7 +627,7 @@ Con este filtro vamos a fusionar dos imágenes a través de diferentes métodos 
 <use xlink:href="#rectangulo" filter="url(#darken)" transform="translate(200 300)"/>
 <use xlink:href="#rectangulo" filter="url(#lighten)" transform="translate(450 300)"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/jbdgi/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/jbdgi/)
 
 ####Soporte
 
@@ -680,7 +680,7 @@ Con este filtro conseguimos mezclar dos imágenes los algoritmos de ***Porter-Du
   <use xlink:href="#rectangulo" filter="url(#xor)" transform="translate(450 300)"/>
   <use xlink:href="#rectangulo" filter="url(#arithmetic)" transform="translate(700 300)"/>
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/qLjak/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/qLjak/)
 
 ####Soporte
 
@@ -704,7 +704,7 @@ Con el atributo `feTile` vamos a conseguir un efecto muy similar al de pattern, 
 <rect x="0" filter="url(#uno)" width="100%" height="100%"/>
 
 ~~~~~~~
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/kGxzy/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/kGxzy/)
 
 ####Soporte
 

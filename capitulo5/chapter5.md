@@ -19,7 +19,7 @@ Para añadir texto en **SVG** tenemos la etiqueta `<text>`. El texto como el res
 <text x="100" y="280" fill="red" textLength="1000" lengthAdjust="spacing">Texto con textLength(1000) y lengthAdjust(spacing)</text>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/beGCk/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/beGCk/)
 
 ####Soporte
 
@@ -46,7 +46,7 @@ Vamos a hacer varias combinaciones para ver lo que podemos hacer.
 </text>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/BdJLH/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/BdJLH/)
 
 
 - En el primero cambiamos el color del texto y aumentamos el tamaño de la letra.
@@ -81,7 +81,7 @@ Con la etiqueta `<textPath>` logramos que un texto fluya a lo largo de un `<path
 </g>
 ~~~~~~~
 
-[![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xncDl/)
+[![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/xncDl/)
 
 ####Soporte
 
