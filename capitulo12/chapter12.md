@@ -110,7 +110,7 @@ Para que no elimine el atributo viewBox.
 
 ###removeTitle y removeDesc
 
-Para mí estos dos plugins son los más importantes. Si queremos que Google muestre un título y una descripción de nuestro SVG debemos de añadir las etiquetas <title> y <desc> para que lo muestre en los resultados. Con este plugin en false SVGO no eliminará estas dos etiquetas.
+Para mí estos dos plugins son los más importantes. Si queremos que Google muestre un título y una descripción de nuestro SVG debemos de añadir las etiquetas ```<title>``` y ```<desc>``` para que lo muestre en los resultados. Con este plugin en false SVGO no eliminará estas dos etiquetas.
 
 ###removeUselessStrokeAndFill
 
