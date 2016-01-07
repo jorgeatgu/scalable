@@ -51,7 +51,7 @@ En el tercer rectángulo el patrón tiene `patternUnits="userSpaceOnUse"` pero e
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ##Mask
 
@@ -88,7 +88,7 @@ En el ejemplo que vamos a ver a continuación aplicamos el `<mask>` con forma de
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ##Clip-Path
 
@@ -131,7 +131,7 @@ Vamos a ver otro ejemplo donde vamos a utilizar `<clipPath>` con texto, este rec
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ##Symbol
 
@@ -159,4 +159,4 @@ Vamos a ver un ejemplo donde creamos un rectángulo con cuatro rectángulos cada
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
