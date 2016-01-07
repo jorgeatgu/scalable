@@ -23,7 +23,7 @@ Para añadir texto en **SVG** tenemos la etiqueta `<text>`. El texto como el res
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ## Tspan
 
@@ -55,7 +55,7 @@ Vamos a hacer varias combinaciones para ver lo que podemos hacer.
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ## textPath
 
@@ -85,4 +85,4 @@ Con la etiqueta `<textPath>` logramos que un texto fluya a lo largo de un `<path
 
 ####Soporte
 
-![](images/soporte/segunda.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/segunda.jpg)

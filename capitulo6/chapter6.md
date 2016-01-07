@@ -170,6 +170,6 @@ Así que después de todas las operaciones el resultado que se aplicará al elem
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 La única diferencia notable es que en la transformacion scale en **IE10 y IE11** generan un espacio a la derecha del objeto que recibe la transformación.
