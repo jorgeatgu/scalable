@@ -152,7 +152,7 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
   	12.2 [SVGO](https://github.com/jorgeatgu/scalable/blob/master/capitulo12/chapter12.md#svgo)
   	12.3 [SVGO en jorgeatgu.com](https://github.com/jorgeatgu/scalable/blob/master/capitulo12/chapter12.md#svgo-en-jorgeatgucom)
   	12.4 [Optimizando SVG con Grunt](https://github.com/jorgeatgu/scalable/blob/master/capitulo12/chapter12.md#optimizando-svg-con-grunt)
-  	12.5 [SVGO ONLINE]()
+  	12.5 [SVGO ONLINE](https://github.com/jorgeatgu/scalable/blob/master/capitulo12/chapter12.md#svgo-online)
 13. [WAI-ARIA en SVG](https://github.com/jorgeatgu/scalable/blob/master/capitulo13/chapter13.md)
   	13.1 [SVG 1.1](https://github.com/jorgeatgu/scalable/blob/master/capitulo13/chapter13.md#svg-11)
   	13.2 [SVG 2](https://github.com/jorgeatgu/scalable/blob/master/capitulo13/chapter13.md#svg-2)
