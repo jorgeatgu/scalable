@@ -81,14 +81,14 @@ Ahora que ya conocemos un poco más sobre Grunt vamos a instalar un plugin para 
 
 Lo primero que vamos a hacer es instalar [svgmin](https://github.com/sindresorhus/grunt-svgmin) desde el terminal.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 $ npm install --save-dev grunt-svgmin
 ~~~~~~~
 
 Ahora vamos a incluir la tarea en nuestro archivo gruntfile.js
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 svgmin: {
                  options: {

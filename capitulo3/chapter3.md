@@ -12,7 +12,7 @@ En mi opinión como no sabemos el camino que va a recorrer nuestro **SVG** y com
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-3/Capitulo-3-namespaces.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250">
        <image xlink:href="cuadrado.svg" width="200" height="200"/>
@@ -67,7 +67,7 @@ El atributo se define con cuatro valores, los dos primeros corresponden a las co
 
 En el ejemplo que vamos a ver a continuación tanto el ***width*** y el ***height*** comparten los mismo valores con el ***viewBox***, 1200 de ***width*** y 300 de ***height***, por lo tanto no vamos a ver ningún efecto.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg x="0" y="0" width="1200" height="300" viewBox="0 0 1200 300">
     <rect x="150" y="100" width="150" height="150" fill="crimson"/>
@@ -79,7 +79,7 @@ En el ejemplo que vamos a ver a continuación tanto el ***width*** y el ***heigh
 
 En el ejemplo que vamos a ver a continuación todas las medidas son iguales que en el anterior ejemplo a excepción del ***viewBox***, el cual ahora tiene un ***width*** de 600 y un ***height*** de 150, estas medidas hacen un efecto de zoom sobre el documento reduciendo las dimensiones del documento y multiplicando por dos el tamaño las figuras y del texto.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg x="0" y="300" width="1200" height="300" viewBox="0 0 600 150">
     <rect x="150" y="100" width="150" height="150" fill="crimson"/>
@@ -130,7 +130,7 @@ Vamos a ver un ejemplo que incluye varias, cada combinación ocupa el 33% del an
 
 En el código que vais a ver a continuación para que se asocie mejor el efecto con la imagen sólo he dejado el la etiqueta principal con su valores, el resto del código lo podéis consultar en **CodePen** o en los archivos del .zip
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg viewBox="0 0 60 80" width="33%" height="10%" preserveAspectRatio="xMinYMid">
 </svg>
@@ -167,7 +167,7 @@ Por último vamos a ver el segundo valor que le podemos dar a ***preserveAspectR
 
 En el código que vais a ver a continuación para que se asocie mejor el efecto con la imagen sólo he dejado el la etiqueta principal con su valores, el resto del código lo podéis consultar en **CodePen** o en los archivos del .zip
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg preserveAspectRatio="xMinYMin meet">
 </svg>

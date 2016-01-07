@@ -112,21 +112,21 @@ Vamos a ver las diferentes opciones que tenemos para añadir nuestros archivos *
 
 Con la etiqueta `img`
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <img src="smilipostbox.svg">
 ~~~~~~~
 
 Con la etiqueta `object`
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <object type="image/svg+xml" data="smilipostbox.svg"></object>
 ~~~~~~~
 
 Con la propiedad `background-image` de **CSS**
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <div class="background"></div>
 ~~~~~~~
@@ -142,7 +142,7 @@ background: url(smilipostbox.svg) no-repeat;
 
 Con **HTML5** podemos incluir directamente el código entre las etiquetas `body` del **HTML**.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="300" viewBox="0 0 200 300">
  <rect width="40" height="40" fill="navajowhite" stroke="crimson" stroke-width="20"/>
@@ -164,7 +164,7 @@ Ni **IE8** ni **Android 2.3** ni por supuesto sus versiones anteriores dan sopor
 
 La instalación es bastante sencilla, simplemente tenemos que añadir en nuestro **HTML** el siguiente código:
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <script src="path/to/svgeezy.js"></script>
 <script>
@@ -180,7 +180,7 @@ Hay que tener en la misma carpeta los archivos **SVG** y **PNG**. Los archivos d
 
 Con **SVGMagic** no necesitamos tener ninguna carpeta con los archivos en formato **PNG** ya que el propio plugin se encarga de enviar y transformar los **SVG**. También transforma los archivos **SVG** que utilizamos a través de `background-image`.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <script src="SVGMagic.min.js"></script>
 <script>
@@ -193,7 +193,7 @@ Con **SVGMagic** no necesitamos tener ninguna carpeta con los archivos en format
 
 Si utilizamos **SVG** a través de `background-image` también tenemos que añadir el siguiente código:
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <script src="SVGMagic.min.js"></script>
 <script>
@@ -215,7 +215,7 @@ Con este script vamos a añadir el **PNG** a traves de la propiedad background d
 
 Lo primero que vamos a ver es el script de **JavaScript**
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <script>
 
@@ -247,7 +247,7 @@ Lo que hace este script es comprobar si el navegador soporta **SVG**, en caso de
 
 Lo que tenemos que hacer es añadir a nuestra etiqueta de **SVG** una clase data-use y icon. Se puede utilizar otros nombres pero acordaros de modificarlo en el script. Ahora en nuestro **CSS** vamos a añadir el **PNG** a través de un ``background``, la clase tendrá que tener el mismo nombre que hemos utilizado en el data-use e irá precedidad de un span. Vamos a ver un ejemplo
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" data-use="logo-jorge">
 ~~~~~~~
@@ -274,14 +274,14 @@ En su versión **3.9.1 Wordpress** no deja subir archivos en formato **SVG** a l
 
 Para solucionar todo esto contamos con el plugin [SVG Shortcode](http://wordpress.org/plugins/svg-shortcode/) su funcionamiento es bastante simple. Vamos a buscar el plugin en el apartado de plugins de Wordpress. Una vez que tenemos instalado el ***plugin*** vamos a subir nuestros archivos a nuestro propio servidor, por ejemplo a la carpeta images, así que ahora copiamos la dirección del enlace `images\nuestroarchivo.svg` ahora vamos al editor de **WordPress** y lo añadimos de la siguiente manera:
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 [svg]nuestroarchivo.svg[/svg]
 ~~~~~~~
 
 También le podemos indicar las medidas de nuestro archivo a través de los atributos `width` y `height`
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 [svg width="40" height="20"]nuestroarchivo.svg[/svg]
 ~~~~~~~

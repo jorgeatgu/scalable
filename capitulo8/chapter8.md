@@ -15,7 +15,7 @@ Una vez definidas las propiedades de nuestro degradado vamos a pasar a definir q
 
 Vamos a utilizar el mismo degradado para los tres rectángulos, sólo voy a poner una vez el código del degradado ya que ocupa demasiado y no tiene sentido repetirlo continuamente.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <stop offset="0%" stop-color="khaki"/>
 <stop offset="10%" stop-color="khaki"/>
@@ -43,7 +43,7 @@ Ahora vamos a ver las diferentes opciones, recordad que sólo vamos a ver las et
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-8/Capitulo-8-linearGradient.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<linearGradient id="userspace" gradientUnits="userSpaceOnUse">
@@ -83,7 +83,7 @@ Una vez definidas las propiedades de nuestro degradado vamos a pasar a definir q
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-8/Capitulo-8-radialGradient.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<radialGradient id="primero" gradientUnits="objectBoundingBox">
@@ -117,7 +117,7 @@ Vamos a ver un ejemplo utilizando todos los valores con este orden ***pad repeat
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-8/Capitulo-8-spreadMethod.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<linearGradient id="uno"spreadMethod="pad" x1="87" y1="206" x2="259" y2="206" gradientUnits="userSpaceOnUse">
@@ -159,7 +159,7 @@ En el ejemplo que vamos a ver a continuación he aplicado al mismo degradado un 
 
 [![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/nxyHE/)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <linearGradient id="rotate" gradientUnits="userSpaceOnUse" gradientTransform="rotate(25)">
 <linearGradient id="translate" gradientUnits="userSpaceOnUse" gradientTransform="translate(45)">

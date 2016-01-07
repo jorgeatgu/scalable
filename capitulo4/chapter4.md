@@ -8,7 +8,7 @@ Antes de comenzar a ver las diferentes formas básicas vamos a ver dos atributos
 
 Para añadir color a los diferentes objetos lo vamos a hacer a través del atributos ***fill*** para rellenar objetos y ***stroke*** para rellenar los bordes, podemos hacerlo utilizando diferentes métodos.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 	fill=”rgba(255,255,255,0.75)”
 	fill=”rgb(255,255,255)”
@@ -25,7 +25,7 @@ La opacidad del relleno la podemos modificar a través del atributo `fill-opacit
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-fill-opacity.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="410" y="50" fill="coral" width="300" height="100" fill-opacity=".9"/>
 <rect x="410" y="210" fill="coral" width="300" height="100" fill-opacity=".5"/>
@@ -40,7 +40,7 @@ En el ejemplo a través de un `<path>` he dibujado dos rectángulos, en el códi
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-fill-rule.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path fill="crimson" fill-rule="evenodd" d="M423.7,472.1H165.1c-6.6,0-12-5.4-12-12V201.5c0-6.6,5.4-12,12-12h258.6c6.6,0,12,5.4,12,12v258.6 C435.7,466.7,430.3,472.1,423.7,472.1z
 
@@ -68,7 +68,7 @@ Con el atributo ***stroke-dasharray*** vamos a definir la longitud de las línea
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-stroke-dasharray.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <line x1="100" x2="500" y1="50" y2="50" stroke="crimson" stroke-width="15" stroke-dasharray="15 10"/>
 <line x1="100" x2="500" y1="100" y2="100" stroke="coral" stroke-width="15" stroke-dasharray="10 15"/>
@@ -81,7 +81,7 @@ Con el atributo ***stroke-dashoffset*** vamos a definir la distancia a la que qu
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-stroke-dashoffset.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <line x1="100" x2="500" y1="50" y2="50" stroke="crimson" stroke-width="15" stroke-dasharray="15 10" stroke-dashoffset="0" />
 <line x1="100" x2="500" y1="100" y2="100" stroke="coral" stroke-width="15" stroke-dasharray="15 10" stroke-dashoffset="-405"/>
@@ -93,7 +93,7 @@ Con el atributo ***stroke-linecap*** podemos modificar la forma inicial y final 
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-stroke-linecap.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <line x1="100" x2="500" y1="50" y2="50" stroke="crimson" stroke-width="25"/>
 <line x1="100" x2="500" y1="100" y2="100" stroke="coral" stroke-width="25" stroke-linecap="round"/>
@@ -106,7 +106,7 @@ Con el atributo ***stroke-line-join*** vamos a determinar la forma que van a ten
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-stroke-linejoin.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect width="200" height="200" x="120" y="150" fill="none" stroke="crimson" stroke-width="40" stroke-linejoin="miter"/>
 <rect width="200" height="200" x="500" y="150" fill="none" stroke="coral" stroke-width="40" stroke-linejoin="round"/>
@@ -120,7 +120,7 @@ Con el atributo ***stroke-miterlimit*** vamos a comparar la longitud del ángulo
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-stroke-miterlimit.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <polyline points="100,100 140,60 180,100 220,60 260,100 300,60 340,100" fill="none" stroke="crimson" stroke-width="20" stroke-miterlimit="1"/>
 <g transform="translate(0,100)">
@@ -152,7 +152,7 @@ Para que los rectángulos tengan las esquinas redondeadas tenemos los atributos 
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-rect.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="500" y="100" width="150" height="150" fill="crimson" stroke="blue" stroke-width="10"/>
 <rect x="500" y="300" width="150" height="150" fill="blue" stroke="crimson" stroke-width="10" rx="50"/>
@@ -179,7 +179,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde del círculo
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-circle.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <circle r="90" cx="630" cy="230" fill="crimson" stroke="navajowhite" stroke-width="10"/>
 ~~~~~~~
@@ -206,7 +206,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde de la elipse
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-ellipse.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <ellipse rx="90" ry="230" cx="630" cy="280" fill="crimson" stroke="navajowhite" stroke-width="10"/>
 ~~~~~~~
@@ -233,7 +233,7 @@ Con el atributo ***stroke-width*** determinamos el grosor de la línea.
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-line.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <line x1="400" y1="200" x2="700" y2="200" stroke="crimson" stroke-width="10"/>
 ~~~~~~~
@@ -244,7 +244,7 @@ Tenemos un camino más fácil para generar solamente una línea, para ello tenem
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-lineDos.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <line x2="700" y2="200" stroke="crimson" stroke-width="10"/>
 ~~~~~~~
@@ -268,7 +268,7 @@ Antes de continuar voy a hacer una aclaración, como podéis ver en la lista de 
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-polyline.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <polyline points="100,140 140,140 140,180 180,180 180,220 220,220 220,260" fill="none" stroke="crimson" stroke-width="20" />
 ~~~~~~~
@@ -290,7 +290,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde del polígon
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-polygon.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <polygon points="200,100 250,180 10,210" fill="none" stroke="crimson" stroke-width="20"/>
 ~~~~~~~
@@ -307,7 +307,7 @@ A continuación vamos a ver una serie de comandos para dibujar con `<path>`, tod
 
 Estas dos líneas como podemos apreciar en el código comparten las mismas coordenadas, la única diferencia que podemos ver es que las coordenadas del primer `<path>` están acompañadas por letras mínusculas lo cual las convierte en coordenadas relativas aumentando considerablemente la longitud del trazado, la primera coordenada le dice que comience en 425,225 y la segunda coordenada que se desplace 475pixels a lo largo de la coordenada horizontal y 175pixels a lo largo de la coordenada vertical. Las coordenadas del segundo `<path>` están acompañadas por letras mayúsculas lo cual las convierte en absolutas, así el trazado comienza igualmente en 425,225 pero solamente se desplaza hasta la coordenada 475,275, es decir 50pixels en su coordenada horizontal y otros 50 en su coordenada vertical.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="m425,225 l475,275 l575,175 l675,275" stroke="crimson" fill="none"/>
 <path stroke-width="10" d="M425,225 L475,275 L575,175 L675,275" stroke="blue" fill="none"/>
@@ -344,7 +344,7 @@ A continuación vamos a ver un ejemplo utilizando ***moveto*** y ***lineto***.
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-moveto.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="M425,225 L475,275 L575,175 L675,275" stroke="crimson" fill="none"/>
 ~~~~~~~
@@ -387,7 +387,7 @@ Vamos a ver los dos comandos en el mismo ejemplo.
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-path-horizontalto.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="M300,10 H790" stroke="crimson"/>
 <path stroke-width="10" d="M300,10 V500" stroke="blue"/>
@@ -411,7 +411,7 @@ En el ejemplo que vamos a ver a continuación el trazado comienza con `M130,130`
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-curveTo.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="M130 130 C440 440, 560 540, 770 430" stroke="crimson" fill="none"/>
 ~~~~~~~
@@ -432,7 +432,7 @@ Los comandos en minúsculas indican posiciones relativas.
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-smoothCurveTo.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="M130 130 s440 440, 560 50" stroke="crimson" fill="none"/>
 ~~~~~~~
@@ -458,7 +458,7 @@ La coordenada de T(smooth quadratic bezier) corresponde a ***x,y*** en este caso
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-smoothCuadraticCurveTo.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="M200,300 Q400,50 600,300 T1000,300" fill="none" stroke="crimson" stroke-width="2"/>
 ~~~~~~~
@@ -476,7 +476,7 @@ Con el comando ***arc*** dibujamos un arco elíptico desde las coordenadas ***x*
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-4/Capitulo-4-path-arc.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <path stroke-width="10" d="M343,267 A150,203 0 1,0 31,359 z" stroke="crimson" fill="none"/>
 ~~~~~~~

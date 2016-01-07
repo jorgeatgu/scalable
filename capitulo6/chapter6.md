@@ -19,7 +19,7 @@ En el código que vamos a ver a continuación los dos rectángulos están posici
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-6/Capitulo-6-translate.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="500" y="100" width="150" height="150" fill="crimson"/>
 <rect x="500" y="100" width="150" height="150" fill="blue" transform="translate(60 100)"/>
@@ -44,7 +44,7 @@ Al cuarto rectángulo de color cyan lo vamos a rotar desde su centro con `transf
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-6/Capitulo-6-rotate.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="500" y="100" width="150" height="150" fill="pink"/>
 <rect x="500" y="100" width="150" height="150" fill="crimson" transform="rotate(20)"/>
@@ -60,7 +60,7 @@ Con esta transformación vamos a escalar el objeto, para ello contamos con dos v
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-6/Capitulo-6-scale.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="500" y="100" width="150" height="150" fill="crimson" transform="scale(.5)"/>
 <rect x="500" y="100" width="150" height="150" fill="blue" transform="scale(2 3)"/>
@@ -76,7 +76,7 @@ En el ejemplo que vamos a ver a continuación se puede apreciar como el rectáng
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-6/Capitulo-6-skewX.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="500" y="100" width="150" height="150" fill="crimson" transform="skewX(5)"/>
 <rect x="500" y="300" width="150" height="150" fill="blue" transform="skewX(20)"/>
@@ -92,7 +92,7 @@ En el ejemplo que vamos a ver a continuación se puede apreciar como el rectáng
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-6/Capitulo-6-skewY.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <rect x="500" y="100" width="150" height="150" fill="crimson" transform="skewY(5)"/>
 <rect x="500" y="300" width="150" height="150" fill="blue" transform="skewY(10)"/>
@@ -159,7 +159,7 @@ Así que después de todas las operaciones el resultado que se aplicará al elem
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-6/Capitulo-6-matrix.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <line x1="35" y1="111" x2="65" y2="201"/>
 <line x1="5" y1="25" x2="20" y2="40" stroke-width="40px" stroke="crimson"/>
