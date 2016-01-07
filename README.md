@@ -26,10 +26,22 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 ##Versiones
 
 * **3/7/2014**: SCALABLE 1.0
+
+> Libro publicado :)
+
 * **9/9/2014**: SCALABLE 2.0
+
+> Esta es la primera actualización que recibe el libro, he corregido unas cuantas faltas que tenía el libro, seguro que se me ha escapado una. También he cambiado las imágenes del soporte, en la versión anterior si un navegador no soportaba un elemento el icono del navegador no aparecía. La verdad es que no era nada práctico el tener que buscar que icono de navegador falta. Ahora al final de cada sección o capítulo aparece una tabla con todos los navegadores, si soporta el elemento un visto bueno sobre fondo verde, si no tiene soporte una cruz sobre fondo rojo. Mucho mejor ¿no? el anexo con el soporte en texto no lo he tocado.
+
 * **27/10/2014**: SCALABLE 3.0
 
+> La actualización consta de tres nuevas secciones todas ellas incluidas en el capitulo 11 del libro.
 
+> El primer artículo es una adaptación del que escribí para octuweb y que podéis visitar http://octuweb.com/sprites-con-svg creo que a estas alturas todo el mundo estará al tanto de la idea de octuweb.
+
+> El segundo artículo relata todas las maneras disponibles para dar estilos a nuestros archivos SVG a través de CSS. Es algo que se quedo en el tintero ya que casi siempre suelo utilizar los presentation attributes para dar estilos a mis SVG, no quiere decir que sea el mejor método simplemente es una manía heredada de exportar SVG con Adobe Illustrator.
+
+> El tercer artículo y el más interesante trata sobre los "fragments identifiers" un método para incluir partes de nuestros SVG a través de HTML y de CSS. Lo curioso es que está soportado desde IE9, recordad que los sprites a través de SVG no están soportados en ninguna versión de IE y tenemos que echar mano de un polyfill. Pero por desgracia el soporte en otros navegadores es bastante reciente.
 
 * **31/1/2015**: SCALABLE 4.0
 
