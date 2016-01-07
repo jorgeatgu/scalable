@@ -69,7 +69,7 @@ Al tercer rectángulo le aplicamos el degradado ***#objectBounding2*** el cual t
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 En **iOS5.1.1** las líneas que separan los colores de `linearGradient` se ven borrosas.
 
@@ -107,7 +107,7 @@ Una vez definidas las propiedades de nuestro degradado vamos a pasar a definir q
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ##spreadMethod
 
@@ -144,7 +144,7 @@ Vamos a ver un ejemplo utilizando todos los valores con este orden ***pad repeat
 
 ####Soporte
 
-![](images/soporte/sexta.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/sexta.jpg)
 
 
 ##gradientTransform
@@ -167,6 +167,6 @@ En el ejemplo que vamos a ver a continuación he aplicado al mismo degradado un 
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 

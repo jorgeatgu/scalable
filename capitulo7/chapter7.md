@@ -87,7 +87,7 @@ Con este filtro conseguimos rellenar el objeto con un color. Vamos a definir el 
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 
 ## feTurbulence
@@ -142,11 +142,11 @@ Con ***type*** tenemos dos valores, por defecto su valor es ***Turbulunce*** y e
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 En **IE10, IE 11 y Firefox** el efecto es diferente.
 
-![](images/soporte/feTurbulence-safari-firefox.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feTurbulence-safari-firefox.jpg)
 
 ## feImage
 
@@ -171,11 +171,11 @@ En el ejemplo que vamos a ver a continuación se utiliza el filtro ***feTurbulen
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 En **Firefox, IE10 y IE11** el efecto es diferente al que obtenemos en **Safari, Chrome y Opera**.
 
-![](images/soporte/feImage-safari-firefox.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feImage-safari-firefox.jpg)
 
 ## feColorMatrix
 
@@ -223,7 +223,7 @@ Para ***luminanceToAplha*** no necesitamos ningún valor.
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 ## feComponentTransfer
 
@@ -283,13 +283,13 @@ Vamos a ver los diferentes efectos de los tipos sobre la misma imagen.
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 El efecto en **Safari** genera colores diferentes al efecto en **Chrome, Firefox y Opera**.
 
 El efecto de ***identity*** sólo se ve en **Safari**.
 
-![](images/soporte/feComponentTransfer-safari-chrome.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feComponentTransfer-safari-chrome.jpg)
 
 ## feConvolveMatrix
 
@@ -326,11 +326,11 @@ En ***kernelMatrix*** vamos a indicar todos los valores, estará condicionado al
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 La fotografía se ve más clara en **Safari**.
 
-![](images/soporte/feConvolveMatrix-safari-chrome.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feConvolveMatrix-safari-chrome.jpg)
 
 
 ## feGaussianBlur
@@ -360,11 +360,11 @@ Con este filtro conseguimos el efecto de desenfoque gaussiano, si has utilizado 
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 La fotografía se ve más clara en **Safari**.
 
-![](images/soporte/feGaussianBlur-safari-chrome.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feGaussianBlur-safari-chrome.jpg)
 
 ## feDisplacementMap
 
@@ -396,11 +396,11 @@ Con este filtro vamos a transformar los píxeles de una imagen en formas geomét
 
 ####Soporte
 
-![](images/soporte/cuarta.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/cuarta.jpg)
 
 El efecto en **Safari** es ligeramente diferente al de **Opera y Chrome**.
 
-![](images/soporte/feDisplacementMap-safari-chrome.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feDisplacementMap-safari-chrome.jpg)
 
 
 ## feMorphology
@@ -434,11 +434,11 @@ Con este filtro vamos a generar un efecto de engorde o de adelgazamiento del obj
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 En **Safari** la imagen se ve más clara.
 
-![](images/soporte/feMorphology-safari-chrome.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feMorphology-safari-chrome.jpg)
 
 ## feOffset
 
@@ -474,7 +474,7 @@ Con este filtro vamos a desplazar a lo largo del documento la imagen, es ideal p
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 ## Efectos de luz
 
@@ -507,12 +507,12 @@ Con este filtro vamos a obtener imágenes mucho más claras, dispone de los atri
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 En **Chrome y Opera** el efecto es el mismo.
 En **IE10, IE11 y Firefox** el efecto es el mismo.
 
-![](images/soporte/feSpecularLightingDistantLight.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feSpecularLightingDistantLight.jpg)
 
 
 ##fePointLight
@@ -540,17 +540,17 @@ Con este filtro vamos a conseguir un efecto similar al del sol, tenemos los atri
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 En **Chrome y Opera** el efecto del filtro es ligeramente diferente.
 
 En **iOS7** el lugar donde se aplica el filtro cambia de posición.
 
-![](images/soporte/feSpecularLightingPointLight.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feSpecularLightingPointLight.jpg)
 
 ##feSpotLight
 
-Con este filtro vamos a añadir una luz focal a las imágenes, tenemos ***los atributos ***x***, ***y***, ***z*** para posicionar el foco a lo largo del documento, con los atributos ***PointsAtX***, ***PointsAtY*** y ***PointsAtZ*** vamos a indicar lo que ocupará el foco en los ejes horizontal y vertical, por último con el ***limitingConeAngle*** vamos a indicar el ángulo que va a ocupar el foco.
+Con este filtro vamos a añadir una luz focal a las imágenes, tenemos los atributos ***x***, ***y***, ***z*** para posicionar el foco a lo largo del documento, con los atributos ***PointsAtX***, ***PointsAtY*** y ***PointsAtZ*** vamos a indicar lo que ocupará el foco en los ejes horizontal y vertical, por último con el ***limitingConeAngle*** vamos a indicar el ángulo que va a ocupar el foco.
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-7/Capitulo-7-feSpecularLightingSpotLight.jpg)
 
@@ -572,13 +572,13 @@ Con este filtro vamos a añadir una luz focal a las imágenes, tenemos ***los at
 [![](https://github.com/jorgeatgu/scalable/blob/master/images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/LhnrJ/)
 
 
-####Soporte
+#### Soporte
 
-![](images/soporte/quinta.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/quinta.jpg)
 
 En **Safari** el efecto es diferente.
 
-![](images/soporte/feSpecularLightingSpotLight.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/feSpecularLightingSpotLight.jpg)
 
 ##feMerge
 
@@ -631,7 +631,7 @@ Con este filtro vamos a fusionar dos imágenes a través de diferentes métodos 
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 ##feComposite
 
@@ -684,7 +684,7 @@ Con este filtro conseguimos mezclar dos imágenes los algoritmos de ***Porter-Du
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 
 ## feTile
@@ -708,7 +708,7 @@ Con el atributo `feTile` vamos a conseguir un efecto muy similar al de pattern, 
 
 ####Soporte
 
-![](images/soporte/tercera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/tercera.jpg)
 
 
 ## Fildrop
