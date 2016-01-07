@@ -29,7 +29,7 @@ En el anterior ejemplo podemos ver como hemos indicado a la vez el mismo color y
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ##Defs y use
 Ahora que ya sabemos como crear nuestras propias formas básicas, patrones, degradados y aplicar a todos ellos múltiples transformaciones vamos a ver como podemos reutilizar todo este código para no tener que ir repitiendo a lo largo de documento los mismos elementos con el consecuente ahorro de código y sobre todo de tiempo.
@@ -87,7 +87,7 @@ En este ejemplo con cinco etiquetas `<use>` hemos creado cinco grupos de cinco r
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 ## Usando CSS para aplicar estilos
 
@@ -97,7 +97,7 @@ El método es sencillo, una vez declarados nuestros efectos entre las etiquetas 
 
 ![](https://github.com/jorgeatgu/scalable/blob/master/images/Capitulo-11/Capitulo-11-useCSS.jpg)
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 
 .patron {
@@ -153,7 +153,7 @@ fill: url(#degradado);
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 En **IE9 y iOS5** no se aplica el efecto del filtro ya que no están soportados.
 
@@ -236,7 +236,7 @@ Una vez incluidas todas las imágenes el código quedará de la siguiente manera
 
 También he añadido a los **SVG** una clase de **CSS** para modificar el tamaño a nuestro gusto.
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 .recuadro {
 width: 350px;
@@ -290,7 +290,7 @@ A lo largo de libro hemos ido aplicando los estilos a través de los *presentati
 
 Podemos aplicar una hoja de estilos directamente en nuestros archivos **SVG** a través de una etiqueta `xml`. Para ello vamos a colocar en la cabecera de nuestro **SVG** la siguiente etiqueta **XML**.
 
-{lang="xml", linenos="off"}
+
 ~~~~~~~
 <? xml-stylesheet href="style.css" type="text/css" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2976.5 299">
@@ -301,7 +301,7 @@ Podemos aplicar una hoja de estilos directamente en nuestros archivos **SVG** a 
 
 Ahora en nuestro archivo `style.css` aplicamos los estilos al rectángulo.
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 .rectangulo {
 fill: crimson;
@@ -350,7 +350,7 @@ Y por último el método más conocido, aplicar los estilos a través de una hoj
 <circle cx="50" cy="10" r="50" class="circulo"/>
 ~~~~~~~
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 
 .circulo {
@@ -376,7 +376,7 @@ Si queremos utilizar mas de un atributo simplemente lo separaremos con un punto 
 Ahora vamos a ver como tenemos que preparar nuestro **SVG**. Vamos a crear un archivo con cinco iconos, cada icono es de 32 por 32 pixels. Lo importante es crear una etiqueta `view` por cada icono, en la etiqueta vamos a indicar un ID para diferenciar cada icono y a través del `viewBox` la posición que ocupa el icono.
 
 
-{lang="xml", linenos="off"}
+
 ~~~~~~~
 <view id="codepen-view" viewBox="0 0 32 32"/>
 <view id="twitter-view" viewBox="0 32 32 32"/>
@@ -414,7 +414,7 @@ Ahora vamos a llamar a los iconos desde el **CSS**. Al igual que con el HTML vam
 
 El primer método a través de una clase en **CSS** es igual que el que hemos utilizado en el **HTML** a través de la `svgView`
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 .view {
 background-image: url('http://jorgeatgu.com/libro/ejemplos/images/iconos.svg#svgView(viewBox(0,0,32,32))');
@@ -423,7 +423,7 @@ background-image: url('http://jorgeatgu.com/libro/ejemplos/images/iconos.svg#svg
 
 El segundo método también es igual que el que hemos utilizado en el **HTML** a través del ID que hemos asignado en el **SVG**.
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 .view-dos {
 background-image: url('http://jorgeatgu.com/libro/ejemplos/images/iconos.svg#codepen-view');
@@ -438,12 +438,12 @@ La demo en mi web: [DEMO](jorgeatgu.com/libro/ejemplos/fragments-iconos.html)
 
 A través del **HTML**
 
-![](images/soporte/ocho.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/ocho.jpg)
 
 Android Browser es el único que carece de soporte, en cambio Firefox for Android y Chrome for Android si que dan soporte.
 
 A través del **CSS**
 
-![](images/soporte/nueve.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/nueve.jpg)
 
 

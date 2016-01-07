@@ -131,7 +131,7 @@ Con la propiedad `background-image` de **CSS**
 <div class="background"></div>
 ~~~~~~~
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 .background {
 width: 100%;
@@ -151,7 +151,7 @@ Con **HTML5** podemos incluir directamente el código entre las etiquetas `body`
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 En iOS 5.1.1 a través de la etiqueta `<object>` las medidas del SVG no son respetadas.
 
@@ -254,7 +254,7 @@ Lo que tenemos que hacer es añadir a nuestra etiqueta de **SVG** una clase data
 
 Ahora vamos a ver el **CSS**
 
-{lang="css", linenos="off"}
+
 ~~~~~~~
 span.logo {
 background: url(logo-jorge.png) no-repeat;

@@ -492,6 +492,6 @@ Y para terminar con el `<path>` y  las formas básicas vamos a ver el comando **
 
 ####Soporte
 
-![](images/soporte/primera.jpg)
+![](https://github.com/jorgeatgu/scalable/blob/master/images/soporte/primera.jpg)
 
 En este capítulo el soporte de los navegadores es total a todas las formas básicas que hemos visto a lo largo del capítulo.
