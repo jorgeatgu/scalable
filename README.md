@@ -25,12 +25,37 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 
 ##Versiones
 
-* **3/7/2014**: 1.0
-* **9/9/2014**: 2.0
-* **27/10/2014**: 3.0
-* **31/1/2015**: 4.0
-* **25/3/2015**: 5.0
-* **5/1/2016**: 6.0
+* **3/7/2014**: SCALABLE 1.0
+* **9/9/2014**: SCALABLE 2.0
+* **27/10/2014**: SCALABLE 3.0
+
+
+
+* **31/1/2015**: SCALABLE 4.0
+
+> En el capítulo 2(página 11): He añadido un nuevo "fallback" para sustituir SVG por PNG a través de JavaScript.
+> En el capítulo 4(página 23): He añadido RGBA para dar color a nuestros SVG.
+> En el capítulo 11(página 113): He añadido un aviso para aquellos que vayan a adjuntar CSS a través de etiquetas XML en la cabecera de un SVG
+> En el capítulo 12(a partir de la página 124): He añadido nuevos métodos para optimizar SVG, uno con Grunt y otro con una herramienta online basada en SVGO.
+> Algunas correcciones en códigos que no se mostraban conforme es debido.
+
+
+* **25/3/2015**: SCALABLE 5.0
+
+> He creado una nueva demo para mostrar los efectos de filtro de SVG. He mejorado lo que había anteriormente, la anterior estaba construida con SMIL más SVG, la demo funcionaba pero el resultado no era muy bueno y daba errores con algún navegador. En esta nueva demo ademas de ver los efectos de filtros ahora podéis subir vuestros propios archivos en formato SVG, PNG, JPG y GIF, simplemente tenéis que hacer drag&drop con la imagen en la zona indicada en la demo. A los archivos que subáis también se les aplicarán los diferentes efectos de filtros.
+
+> Por si queréis trastear el código aquí tenéis el repositorio de GitHub: https://github.com/jorgeatgu/SVG-FILTERS donde lo he alojado. Cualquier mejora o efecto de filtro que creáis que puede o debe estar ya sea porque es interesante o porque lo habéis creado vosotros mismos podéis hacer un fork del repositorio y hacer un pull request, cualquier ayuda siempre es bienvenida :)
+
+> El enlace directo a la demo también en GitHub: http://jorgeatgu.github.io/svg-filters/ o a través del enlace en el libro en el final del capítulo 7.
+
+
+* **5/1/2016**: SCALABLE 6.0
+
+> En esta nueva versión he incluido en el capítulo 2 las nuevas opciones disponibles para exportar SVG desde la nueva versión de Adobe Illustrator(publicada a principios de diciembre de 2015). Una gran mejora.
+
+> En el capítulo 7 he añadido la nueva version de FILDROP, una herramienta para ver los efectos de los diferentes filtros sobre archivos en formato PNG, JPEG y SVG. En esta nueva versión puedes modificar en vivo y en directo los valores de algunos filtros, para así hacer tus propios filtros. Todo el código generado lo puedes copiar fácilmente desde el desplegable. También puedes bajarte los archivos SVG y CSS para emplearlos fácilmente en cualquier proyecto.
+
+> He borrado el capítulo borrador que hacia referencia a SVG 2, voy a esperar hasta que este todo definido. El roadmap(http://www.w3.org/Graphics/SVG/WG/wiki/Roadmap) del grupo de SVG de la W3C tiene previsto que se convierta en recomendación en diciembre de 2016, ya veremos.
 
 ##Indice de Contenido
 
