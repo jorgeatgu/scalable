@@ -71,7 +71,6 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 
 ##Indice de Contenido
 
-
 1. [Introducción](https://github.com/jorgeatgu/scalable/blob/master/capitulo1/chapter1.md)
 	1.1 [Un poco de historia](https://github.com/jorgeatgu/scalable/blob/master/capitulo1/chapter1.md#un-poco-de-historia)
 	1.2 [Soporte](https://github.com/jorgeatgu/scalable/blob/master/capitulo1/chapter1.md#soporte)
