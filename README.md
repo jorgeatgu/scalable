@@ -29,11 +29,11 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 
 > Libro publicado :)
 
-* **9/9/2014**: SCALABLE 2.0
+* **9/9/2014**: SCALABLE 1.0.5
 
 > Esta es la primera actualización que recibe el libro, he corregido unas cuantas faltas que tenía el libro, seguro que se me ha escapado una. También he cambiado las imágenes del soporte, en la versión anterior si un navegador no soportaba un elemento el icono del navegador no aparecía. La verdad es que no era nada práctico el tener que buscar que icono de navegador falta. Ahora al final de cada sección o capítulo aparece una tabla con todos los navegadores, si soporta el elemento un visto bueno sobre fondo verde, si no tiene soporte una cruz sobre fondo rojo. Mucho mejor ¿no? el anexo con el soporte en texto no lo he tocado.
 
-* **27/10/2014**: SCALABLE 3.0
+* **27/10/2014**: SCALABLE 1.1
 
 > La actualización consta de tres nuevas secciones todas ellas incluidas en el capitulo 11 del libro.
 
@@ -43,7 +43,7 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 
 > El tercer artículo y el más interesante trata sobre los "fragments identifiers" un método para incluir partes de nuestros SVG a través de HTML y de CSS. Lo curioso es que está soportado desde IE9, recordad que los sprites a través de SVG no están soportados en ninguna versión de IE y tenemos que echar mano de un polyfill. Pero por desgracia el soporte en otros navegadores es bastante reciente.
 
-* **31/1/2015**: SCALABLE 4.0
+* **31/1/2015**: SCALABLE 1.2
 
 > En el capítulo 2(página 11): He añadido un nuevo "fallback" para sustituir SVG por PNG a través de JavaScript.
 > En el capítulo 4(página 23): He añadido RGBA para dar color a nuestros SVG.
@@ -52,7 +52,7 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 > Algunas correcciones en códigos que no se mostraban conforme es debido.
 
 
-* **25/3/2015**: SCALABLE 5.0
+* **25/3/2015**: SCALABLE 1.3
 
 > He creado una nueva demo para mostrar los efectos de filtro de SVG. He mejorado lo que había anteriormente, la anterior estaba construida con SMIL más SVG, la demo funcionaba pero el resultado no era muy bueno y daba errores con algún navegador. En esta nueva demo ademas de ver los efectos de filtros ahora podéis subir vuestros propios archivos en formato SVG, PNG, JPG y GIF, simplemente tenéis que hacer drag&drop con la imagen en la zona indicada en la demo. A los archivos que subáis también se les aplicarán los diferentes efectos de filtros.
 
@@ -61,7 +61,7 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 > El enlace directo a la demo también en GitHub: http://jorgeatgu.github.io/svg-filters/ o a través del enlace en el libro en el final del capítulo 7.
 
 
-* **5/1/2016**: SCALABLE 6.0
+* **5/1/2016**: SCALABLE 1.4
 
 > En esta nueva versión he incluido en el capítulo 2 las nuevas opciones disponibles para exportar SVG desde la nueva versión de Adobe Illustrator(publicada a principios de diciembre de 2015). Una gran mejora.
 
