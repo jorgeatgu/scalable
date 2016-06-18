@@ -4,3 +4,16 @@
 ##SVG CROWBAR
 
 https://github.com/NYTimes/svg-crowbar
+
+
+##SVGO para Sketch
+
+https://github.com/BohemianCoding/svgo-compressor
+
+##Polynom
+
+http://polynom.co/#/?_k=9kdptl
+
+##SVGSON
+
+https://github.com/elrumordelaluz/svgson
