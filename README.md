@@ -72,9 +72,9 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 ##Indice de Contenido
 
 1. [Introducción](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt)
-	1.1 [Un poco de historia](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt#un-poco-de-historia)
-	1.2 [Soporte](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt#soporte)
-	1.3 [Formato y ejemplos](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt#formato-y-ejemplos)  
+  	1.1 [Un poco de historia](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt#un-poco-de-historia)
+  	1.2 [Soporte](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt#soporte)
+  	1.3 [Formato y ejemplos](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter1.txt#formato-y-ejemplos)  
 2. [Exportar y añadir SVG](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter2.txt)  
   	2.1 [Adobe Illustrator 17.1.0](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter2.txt#adobe-illustrator-1710)  
   	2.2 [Inkscape 0.48.2](https://github.com/jorgeatgu/scalable/blob/master/manuscript/chapter2.txt#inkscape-0482)  
