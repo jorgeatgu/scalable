@@ -1,5 +1,6 @@
 #Herramientas
 
+En este capítulo vamos a ver una serie de herramientas que no tienen lugar en otros capítulos.
 
 ##SVG CROWBAR
 
