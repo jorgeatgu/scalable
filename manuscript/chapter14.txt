@@ -4,7 +4,7 @@ En este capítulo vamos a ver una serie de herramientas que no tienen lugar en o
 
 ##SVG CROWBAR
 
-https://github.com/NYTimes/svg-crowbar
+
 
 
 ##SVGO para Sketch
