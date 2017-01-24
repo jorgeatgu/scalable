@@ -18,3 +18,12 @@ http://polynom.co/#/?_k=9kdptl
 ##SVGSON
 
 https://github.com/elrumordelaluz/svgson
+
+##SVGsprite
+
+https://github.com/jkphl/gulp-svg-sprite
+http://jkphl.github.io/svg-sprite/#gulp
+
+##XVG
+
+https://xvg.now.sh
