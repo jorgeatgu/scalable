@@ -1,6 +1,6 @@
 #Herramientas
 
-En este capítulo vamos a ver una serie de herramientas que no tienen lugar en otros capítulos.
+En este capítulo vamos a ver una serie de herramientas que no tienen cabida en otros capítulos del libro.
 
 ##SVG CROWBAR
 
@@ -13,7 +13,9 @@ https://github.com/BohemianCoding/svgo-compressor
 
 ##Polynom
 
-http://polynom.co/#/?_k=9kdptl
+Polynom es un editor online. Con este editor podemos crear de forma fácil *path.* También tenemos la posibilidad de importar archivos **SVG** y editarlos fácilmente. Y por supuesto podemos generar nuevos archivos, guardar diferentes archivos y también la posibilidad de descargarlos.
+
+[Polynom](polynom.co)
 
 ##SVGSON
 
