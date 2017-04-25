@@ -1,0 +1,20 @@
+{
+    "author": "Jorge Aznar",
+    "description": "A lo largo de 16 capítulos, 120 páginas y más de 70 ejemplos vamos a ver todo lo que podemos hacer con SVG.",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "home": "http://leanpub.com/scalable/",
+        "twitter": "https://twitter.com/jorgeatgu",
+        "github": "https://github.com/jorgeatgu",
+        "web":"http://jorgeatgu.com"
+    },
+    "output": null,
+    "plugins": ["ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-36222123-1"
+        }
+    },
+    "title": "SCALABLE, un libro sobre SVG"
+}
