@@ -69,7 +69,7 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 
 > He borrado el capítulo borrador que hacia referencia a SVG 2, voy a esperar hasta que este todo definido. El roadmap(http://www.w3.org/Graphics/SVG/WG/wiki/Roadmap) del grupo de SVG de la W3C tiene previsto que se convierta en recomendación en diciembre de 2016, ya veremos.
 
-* **27/04/2017**: SCALABLE 1.5
+* **25/04/2017**: SCALABLE 1.5
 
 > Demasiado tiempo ha pasado desde la última versión. La idea era sacar esta versión las pasadas navidades pero no he podido sacar mucho tiempo para ello.
 
