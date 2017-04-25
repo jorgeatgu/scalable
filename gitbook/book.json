@@ -7,7 +7,7 @@
         "home": "http://leanpub.com/scalable/",
         "twitter": "https://twitter.com/jorgeatgu",
         "github": "https://github.com/jorgeatgu",
-        "web":"http://jorgeatgu.com"
+        "web":"http://jorgeatgu.comnpm install gitbook-plugin-ga"
     },
     "output": null,
     "plugins": ["ga"],
