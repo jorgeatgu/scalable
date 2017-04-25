@@ -19,13 +19,12 @@ Polynom es un editor online. Con este editor podemos crear de forma fácil *path
 
 ##SVGSON
 
-https://github.com/elrumordelaluz/svgson
+SVGSON es una simple herramienta creada por [Lionel](https://elrumordelaluz.com), con esta herramienta podemos transformar fácilmente **SVG** en strings dentro de un objeto o transformarlos en **JSON**.
 
-##SVGsprite
-
-https://github.com/jkphl/gulp-svg-sprite
-http://jkphl.github.io/svg-sprite/#gulp
+[SVGSON](https://github.com/elrumordelaluz/svgson)
 
 ##XVG
 
-https://xvg.now.sh
+Es una extensión para Chrome y Opera con la que podemos *debuggear* SVG. El funcionamiento es sencillo, una vez activada desde la barra de herramientas los **SVG** cambiarán a un color morado, si abrimos las developer tools veremos que tenemos las propiedades del **SVG**, las cuales podemos modificar.
+
+
