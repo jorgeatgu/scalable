@@ -10,7 +10,7 @@ Para añadir texto en **SVG** tenemos la etiqueta `<text>`. El texto como el res
 
 ![](images/capitulo-5/Capitulo-5-texto.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <text x="100" y="120" fill="red">Texto sin nada.</text>
 <text x="100" y="160" fill="red" rotate="25">Texto con rotate(25)</text>
@@ -33,7 +33,7 @@ Vamos a hacer varias combinaciones para ver lo que podemos hacer.
 
 ![](images/capitulo-5/Capitulo-5-tspan.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <text x="50" y="50" fill="red">Este texto es normal.
 	<tspan font-size="40" fill="olive">Este texto va en un tspan</tspan>
@@ -64,7 +64,7 @@ Con la etiqueta `<textPath>` logramos que un texto fluya a lo largo de un `<path
 
 ![](images/capitulo-5/Capitulo-5-textPath.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<path id="ejemplo" d="M197,167.5c0,0,433-285.5,433,0"/>

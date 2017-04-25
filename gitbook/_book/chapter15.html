@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Transformaciones · GitBook</title>
+        <title>CSS en SVG · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="chapter6.html" />
+    <link rel="next" href="chapter15.html" />
     
     
-    <link rel="prev" href="chapter5.html" />
+    <link rel="prev" href="chapter14.html" />
     
 
     </head>
@@ -509,7 +509,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.7" data-path="chapter6.html">
+        <li class="chapter " data-level="1.7" data-path="chapter6.html">
             
                 <a href="chapter6.html">
             
@@ -1356,7 +1356,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16" data-path="chapter15.html">
+        <li class="chapter active" data-level="1.16" data-path="chapter15.html">
             
                 <a href="chapter15.html">
             
@@ -1483,7 +1483,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Transformaciones</a>
+        <a href="." >CSS en SVG</a>
     </h1>
 </div>
 
@@ -1498,116 +1498,52 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="transformaciones">Transformaciones</h1>
-<p>En este cap&#xED;tulo vamos a ver como podemos aplicar una serie de transformaciones a los siguientes elementos, <code>&lt;a&gt;</code> <code>&lt;clippath&gt;</code> <code>&lt;defs&gt;</code> <code>&lt;foreignobject&gt;</code> <code>&lt;g&gt;</code> <code>&lt;switch&gt;</code> <code>&lt;circle&gt;</code> <code>&lt;ellipse&gt;</code> <code>&lt;image&gt;</code> <code>&lt;line&gt;</code> <code>&lt;path&gt;</code> <code>&lt;polygon&gt;</code> <code>&lt;polyline&gt;</code> <code>&lt;rect&gt;</code> <code>&lt;text&gt;</code> <code>&lt;use&gt;</code></p>
-<p>Tenemos a nuestra disposici&#xF3;n las siguientes transformaciones:</p>
-<ul>
-<li>Translate</li>
-<li>Rotate</li>
-<li>Scale</li>
-<li>SkewX</li>
-<li>SkewY</li>
-<li>Matrix</li>
-</ul>
-<h2 id="translate">Translate</h2>
-<p>Con esta transformaci&#xF3;n vamos a desplazar el objeto horizontal y verticalmente a lo largo del documento, para ello contamos con dos valores, el primero de ellos para la coordenada <strong><em>x</em></strong> y el segundo para la coordenada <strong><em>y</em></strong>. Si tan s&#xF3;lo le pasamos un valor este solamente se aplicar&#xE1; a la coordenada <strong><em>x</em></strong>.</p>
-<p>En el c&#xF3;digo que vamos a ver a continuaci&#xF3;n los dos rect&#xE1;ngulos est&#xE1;n posicionados en las mismas coordenadas, el primer rect&#xE1;ngulo no sufre ninguna transformaci&#xF3;n, en cambio al segundo le aplicamos la siguiente transformaci&#xF3;n <code>transform=&quot;translate(60 100)&quot;</code> la cual desplaza 60 <strong><em>pixels</em></strong> hacia la derecha el rect&#xE1;ngulo y 100 <strong><em>pixels</em></strong> hacia abajo.</p>
-<p><img src="images/capitulo-6/Capitulo-6-translate.jpg" alt=""></p>
-<pre><code>&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;crimson&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;blue&quot; transform=&quot;translate(60 100)&quot;/&gt;
-</code></pre><p><a href="http://codepen.io/jorgeatgu/details/xbrwe/" target="_blank"><img src="images/logo-codepen.jpg" alt=""></a></p>
-<h2 id="rotate">Rotate</h2>
-<p>Con esta transformaci&#xF3;n vamos a rotar el objeto, para ello contamos con tres valores, el primero de ellos es obligatorio y con el determinamos los grados de rotaci&#xF3;n que le vamos a aplicar al objeto, los cu&#xE1;les son de 0 a 360 grados. El sentido de la rotaci&#xF3;n es el mismo que el de las agujas del reloj.</p>
-<p>En el c&#xF3;digo que vamos a ver a continuaci&#xF3;n los cuatro rect&#xE1;ngulos est&#xE1;n posicionados en las mismas coordenadas.</p>
-<p>El primer rect&#xE1;ngulo de color rosa no recibe ninguna transformaci&#xF3;n.</p>
-<p>Al segundo rect&#xE1;ngulo de color rojo le vamos a aplicar un <code>transform=&quot;rotate(20)&quot;</code> esta rotaci&#xF3;n se hace desde la esquina superior izquierda, es decir desde la coordenada 0,0.</p>
-<p>Al tercer rect&#xE1;ngulo de color azul le damos los dos valores opcionales <code>transform=&quot;rotate(20 150 150)&quot;</code> el efecto que vamos a conseguir va a ser distinto, el motivo es que primero aplica un <code>transform=&#x201D;translate(150 150)&#x201D;</code> donde traslada el elemento 150pixels a lo largo de su coordenada horizontal y vertical, a continuaci&#xF3;n aplica un <code>transform=&#x201D;rotate(20)&#x201D;</code>, y por &#xFA;ltimo vuelve a trasladar el elemento -150pixels a lo largo de su coordenada horizontal y vertical con <code>transform=&#x201D;translate(-150 -150)&#x201D;</code></p>
-<p>Al cuarto rect&#xE1;ngulo de color cyan lo vamos a rotar desde su centro con <code>transform=&quot;rotate(20 575 175)&quot;</code> para rotarlo desde su centro el primer valor lo obtenemos de sumar su posici&#xF3;n en la coordenada horizontal <code>x=&quot;500&quot;</code> m&#xE1;s la mitad de su anchura <code>width=&quot;150&quot;</code> as&#xED; 500+75 = 575. El segundo valor lo obtenemos de sumar su posici&#xF3;n en la coordenada vertical <code>y=100</code> m&#xE1;s la mitad de su altura <code>height=&quot;150&quot;</code> as&#xED; 100+75 = 175.</p>
-<p><img src="images/capitulo-6/Capitulo-6-rotate.jpg" alt=""></p>
-<pre><code>&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;pink&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;crimson&quot; transform=&quot;rotate(20)&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;blue&quot; transform=&quot;rotate(20 150 150)&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;cyan&quot; transform=&quot;rotate(20 625 175)&quot;/&gt;
-</code></pre><p><a href="http://codepen.io/jorgeatgu/details/hcksx/" target="_blank"><img src="images/logo-codepen.jpg" alt=""></a></p>
-<h2 id="scale">Scale</h2>
-<p>Con esta transformaci&#xF3;n vamos a escalar el objeto, para ello contamos con dos valores, uno para la coordenada horizontal con <strong><em>x</em></strong> y el otro para la coordenada vertical con <strong><em>y</em></strong>. Si tan s&#xF3;lo pasamos el primer valor la transformaci&#xF3;n se aplicar&#xE1; a los dos valores.</p>
-<p><img src="images/capitulo-6/Capitulo-6-scale.jpg" alt=""></p>
-<pre><code>&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;crimson&quot; transform=&quot;scale(.5)&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;blue&quot; transform=&quot;scale(2 3)&quot;/&gt;
-</code></pre><p><a href="http://codepen.io/jorgeatgu/details/osfiE/" target="_blank"><img src="images/logo-codepen.jpg" alt=""></a></p>
-<h2 id="skewx">SkewX</h2>
-<p>Con esta transformaci&#xF3;n vamos a sesgar el objeto a lo largo de su coordenada <strong><em>x</em></strong>, vamos a inclinar la posici&#xF3;n del objeto a lo largo de su coordenada <strong><em>x</em></strong>, el valor que vamos a pasarle representa los grados del &#xE1;ngulo.</p>
-<p>En el ejemplo que vamos a ver a continuaci&#xF3;n se puede apreciar como el rect&#xE1;ngulo se estira horizontalmente hacia su derecha.</p>
-<p><img src="images/capitulo-6/Capitulo-6-skewX.jpg" alt=""></p>
-<pre><code>&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;crimson&quot; transform=&quot;skewX(5)&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;300&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;blue&quot; transform=&quot;skewX(20)&quot;/&gt;
-</code></pre><p><a href="http://codepen.io/jorgeatgu/details/jtHlv/" target="_blank"><img src="images/logo-codepen.jpg" alt=""></a></p>
-<h2 id="skewy">SkewY</h2>
-<p>Como su nombre indica esta transformaci&#xF3;n es hermana de <strong><em>skewX</em></strong> pero en esta ocasi&#xF3;n vamos a sesgar el objeto a lo largo de su coordenada <strong><em>y</em></strong>, estiramos la posici&#xF3;n del objeto a lo largo de su coordenada <strong><em>y</em></strong>, el valor que vamos a pasarle representa los grados del &#xE1;ngulo.</p>
-<p>En el ejemplo que vamos a ver a continuaci&#xF3;n se puede apreciar como el rect&#xE1;ngulo se estira verticalmente hacia abajo.</p>
-<p><img src="images/capitulo-6/Capitulo-6-skewY.jpg" alt=""></p>
-<pre><code>&lt;rect x=&quot;500&quot; y=&quot;100&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;crimson&quot; transform=&quot;skewY(5)&quot;/&gt;
-&lt;rect x=&quot;500&quot; y=&quot;300&quot; width=&quot;150&quot; height=&quot;150&quot; fill=&quot;blue&quot; transform=&quot;skewY(10)&quot;/&gt;
-</code></pre><p><a href="http://codepen.io/jorgeatgu/details/yeICs/" target="_blank"><img src="images/logo-codepen.jpg" alt=""></a></p>
-<h2 id="matrix">Matrix</h2>
-<p>Para esta transformaci&#xF3;n necesitamos seis valores(a,b,c,d,e,f), con estos valores se realizan una serie de sumas y multiplicaciones que van modificar la posici&#xF3;n de las coordenadas del elemento en cuesti&#xF3;n.
-Los valores se reparten de la siguiente manera:</p>
-<ul>
-<li>ace</li>
-<li>bdf</li>
-<li>001</li>
-</ul>
-<p>Vamos a ver detalladamente todas las operaciones que se realizan con <code>transform=&quot;matrix(1,2,1,4,5,1)&quot;</code></p>
-<p>Valores que vamos a utilizar del elemento l&#xED;nea:</p>
-<ul>
-<li>x1 = 5</li>
-<li>y1 = 25</li>
-<li>x2 = 20</li>
-<li>y2 = 40</li>
-</ul>
-<p>Valores de <code>transform=&#x201D;matrix&#x201D;</code>:</p>
-<ul>
-<li>a = 1</li>
-<li>b = 2</li>
-<li>c = 1</li>
-<li>d = 4</li>
-<li>e = 5</li>
-<li>f = 1</li>
-</ul>
-<p>Primera operaci&#xF3;n:</p>
-<ul>
-<li>a &#xD7; x1 + c &#xD7; y1 + e =</li>
-<li>1 &#xD7; 5 + 1 &#xD7; 25 + 5 = 35</li>
-</ul>
-<p>Este primer resultado sustituir&#xE1; al valor que tenemos en <strong><em>x1</em></strong></p>
-<p>Segunda operaci&#xF3;n:</p>
-<ul>
-<li>b &#xD7; x1 + d &#xD7; y1 + f</li>
-<li>2 &#xD7; 5 + 4 &#xD7; 25 + 1 = 111</li>
-</ul>
-<p>Esta segunda operaci&#xF3;n sustituir&#xE1; al valor que tenemos en <strong><em>y1</em></strong></p>
-<p>Tercera operaci&#xF3;n:</p>
-<ul>
-<li>a &#xD7; x2 + c &#xD7; y2 + e</li>
-<li>1 &#xD7; 20 + 1 &#xD7; 40 + 5 = 65</li>
-</ul>
-<p>Este tercer resultado sustituir&#xE1; al valor que tenemos en <strong><em>x2</em></strong></p>
-<p>Cuarta operaci&#xF3;n:</p>
-<ul>
-<li>b &#xD7; x2 + d &#xD7; y2 + f</li>
-<li>2 &#xD7; 20 + 4 &#xD7; 40 + 1 = 201</li>
-</ul>
-<p>Este cuarto resultado sustituir&#xE1; al valor que tenemos en <strong><em>y2</em></strong></p>
-<p>As&#xED; que despu&#xE9;s de todas las operaciones el resultado que se aplicar&#xE1; al elemento <code>&lt;line&gt;</code> es el siguiente:</p>
-<p><img src="images/capitulo-6/Capitulo-6-matrix.jpg" alt=""></p>
-<pre><code>&lt;line x1=&quot;35&quot; y1=&quot;111&quot; x2=&quot;65&quot; y2=&quot;201&quot;/&gt;
-&lt;line x1=&quot;5&quot; y1=&quot;25&quot; x2=&quot;20&quot; y2=&quot;40&quot; stroke-width=&quot;40px&quot; stroke=&quot;crimson&quot;/&gt;
-&lt;line x1=&quot;5&quot; y1=&quot;25&quot; x2=&quot;20&quot; y2=&quot;40&quot; stroke-width=&quot;40px&quot; stroke=&quot;blue&quot; transform=&quot;matrix(1,2,1,4,5,1)&quot;/&gt;
-</code></pre><p><a href="http://codepen.io/jorgeatgu/details/biEhe/" target="_blank"><img src="images/logo-codepen.jpg" alt=""></a></p>
-<h4 id="soporte">Soporte</h4>
-<p><img src="images/soporte/primera.jpg" alt=""></p>
-<p>La &#xFA;nica diferencia notable es que en la transformacion scale en <strong>IE10 y IE11</strong> generan un espacio a la derecha del objeto que recibe la transformaci&#xF3;n.</p>
+                                <h1 id="css-en-svg">CSS en SVG</h1>
+<h2 id="m&#xE9;todos-para-aplicar-estilos-css-a-svg">M&#xE9;todos para aplicar estilos CSS a SVG</h2>
+<p>A lo largo de libro hemos ido aplicando los estilos a trav&#xE9;s de los <em>presentation attributes</em> o atributos de presentaci&#xF3;n de tal manera que aplicamos el estilo en la propia etiqueta del elemento. Ahora vamos a ver otros m&#xE9;todos para aplicar diferentes estilos a nuestros <strong>SVG</strong>.</p>
+<h3 id="a-trav&#xE9;s-de-una-etiqueta-xml">A trav&#xE9;s de una etiqueta XML</h3>
+<p>Podemos aplicar una hoja de estilos directamente en nuestros archivos <strong>SVG</strong> a trav&#xE9;s de una etiqueta <code>xml</code>. Para ello vamos a colocar en la cabecera de nuestro <strong>SVG</strong> la siguiente etiqueta <strong>XML</strong>.</p>
+<p>{lang=&quot;xml&quot;, linenos=&quot;off&quot;}</p>
+<pre><code>&lt;? xml-stylesheet href=&quot;style.css&quot; type=&quot;text/css&quot; ?&gt;
+&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 2976.5 299&quot;&gt;
 
+&lt;rect class=&quot;rectangulo&quot; width=&quot;50&quot; height=&quot;50&quot;/&gt;
+&lt;/svg&gt;
+</code></pre><p>Ahora en nuestro archivo <code>style.css</code> aplicamos los estilos al rect&#xE1;ngulo.</p>
+<p>{lang=&quot;css&quot;, linenos=&quot;off&quot;}</p>
+<pre><code>.rectangulo {
+fill: crimson;
+stroke: black;
+}
+</code></pre><p>Un aviso antes de que os volv&#xE1;is locos, este m&#xE9;todo no funciona en local. Tendr&#xE9;is que lanzar un servidor desde vuestro ordenador por ejemplo con Grunt, Gulp, CodeKit, GhostLab pod&#xE9;is ver como la hoja de estilos aplica los estilos al <strong>SVG</strong>. La otra opci&#xF3;n es si dispon&#xE9;is de un servidor web subir el <strong>SVG</strong> y los <strong>CSS</strong> al servidor.</p>
+<h3 id="a-trav&#xE9;s-del-style-en-el-html">A trav&#xE9;s del style en el HTML</h3>
+<p>Aqu&#xED; otro m&#xE9;todo que seguramente suene a m&#xE1;s de uno y como bien sab&#xE9;is es poco o nada recomendable. Solamente tenemos que incluir los estilos <strong>CSS</strong> en el propio <strong>HTML</strong> a trav&#xE9;s de la etiqueta <code>style</code>.</p>
+<pre><code>&lt;style type=&quot;text/css&quot;&gt;
+  &lt;![CDATA[
+ circle {
+ fill: navajowhite;
+ stroke: orange;
+ }
+  ]]&gt;
+&lt;/style&gt;
+&lt;circle cx=&quot;50&quot; cy=&quot;10&quot; r=&quot;50&quot;/&gt;
+</code></pre><h3 id="a-trav&#xE9;s-de-la-etiqueta-style-en-svg">A trav&#xE9;s de la etiqueta style en SVG</h3>
+<p>Al igual que los <em>presentation attributes</em> tambi&#xE9;n podemos usar estilos <em>inline</em> en <strong>SVG</strong> a trav&#xE9;s de <code>style</code></p>
+<pre><code>&lt;circle cx=&quot;50&quot; cy=&quot;10&quot; r=&quot;50&quot; style=&quot;fill: ivory; stroke: snow;&quot;/&gt;
+</code></pre><h3 id="a-trav&#xE9;s-de-un-archivo-css-externo">A trav&#xE9;s de un archivo CSS externo</h3>
+<p>Y por &#xFA;ltimo el m&#xE9;todo m&#xE1;s conocido, aplicar los estilos a trav&#xE9;s de una hoja de estilos externa gracias a la etiqueta <code>link</code> en el head del <strong>HTML</strong>.</p>
+<pre><code>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;turuta.css&quot;&gt;
+
+
+&lt;circle cx=&quot;50&quot; cy=&quot;10&quot; r=&quot;50&quot; class=&quot;circulo&quot;/&gt;
+</code></pre><p>{lang=&quot;css&quot;, linenos=&quot;off&quot;}</p>
+<pre><code>
+.circulo {
+fill: tomato;
+stroke: snow;
+}
+</code></pre>
                                 
                                 </section>
                             
@@ -1634,12 +1570,12 @@ Los valores se reparten de la siguiente manera:</p>
 
             
                 
-                <a href="chapter5.html#textpath" class="navigation navigation-prev " aria-label="Previous page: textPath">
+                <a href="chapter14.html#XVG" class="navigation navigation-prev " aria-label="Previous page: XVG">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="chapter6.html#translate" class="navigation navigation-next " aria-label="Next page: Translate">
+                <a href="chapter15.html#metodos-para-aplicar-estilos-css-a-svg" class="navigation navigation-next " aria-label="Next page: Métodos para aplicar estilos CSS a SVG">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1650,7 +1586,7 @@ Los valores se reparten de la siguiente manera:</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Transformaciones","level":"1.7","depth":1,"next":{"title":"Translate","level":"1.7.1","depth":2,"anchor":"#translate","path":"chapter6.md","ref":"chapter6.md#translate","articles":[]},"previous":{"title":"textPath","level":"1.6.3","depth":2,"anchor":"#textpath","path":"chapter5.md","ref":"chapter5.md#textpath","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter6.md","mtime":"2017-04-25T16:19:58.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-25T16:07:40.153Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CSS en SVG","level":"1.16","depth":1,"next":{"title":"Métodos para aplicar estilos CSS a SVG","level":"1.16.1","depth":2,"anchor":"#metodos-para-aplicar-estilos-css-a-svg","path":"chapter15.md","ref":"chapter15.md#metodos-para-aplicar-estilos-css-a-svg","articles":[]},"previous":{"title":"XVG","level":"1.15.4","depth":2,"anchor":"#XVG","path":"chapter14.md","ref":"chapter14.md#XVG","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter15.md","mtime":"2017-04-25T16:19:58.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-25T16:07:40.153Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

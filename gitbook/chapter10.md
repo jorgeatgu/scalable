@@ -17,7 +17,7 @@ También tenemos a nuestra disposición el atributo ***preserveAspectRatio***, p
 Con la etiqueta `<a>` vamos a crear enlaces en nuestros documentos **SVG**. Al igual que hemos visto en `<image>` para incluir un enlace vamos a hacerlo también con `xlink:href=”LaDirecciónWeb”`, podemos encerrar un `<rect>` en una etiqueta `<a>` para crear un enlace a otra página, y si le añadimos la propiedad **CSS** `cursor=”pointer”` vamos a modificar el puntero así cuando el ratón pase por encima de nuestro enlace será como si pasara por encima de un botón.
 
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <a xlink:href="http://jorgeatgu.com" cursor="pointer">
 	<rect x="400" y="250" width="200" height="50" fill="crimson" stroke="navajowhite"  stroke-width="1"/>
@@ -30,7 +30,7 @@ Podemos agregar un título o una descripción al enlace a través del atributos 
 
 Por último un ejemplo con todos los atributos que tenemos disponible para `target=””`
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <a xlink:href="http://jorgeatgu.com" cursor="pointer" target="_replace">
 	<rect x="30" y="250" width="150" height="50" fill="crimson" stroke="navajowhite"  stroke-width="1"/>

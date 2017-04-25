@@ -12,7 +12,7 @@ Para mover un grupo vamos a tener que recurrir a `transform=”translate”` ya 
 
 ![](images/capitulo-11/Capitulo-11-group.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <g fill="crimson" transform="rotate(45)">
     <rect x="100" y="30" width="40" height="40"/>
@@ -42,7 +42,7 @@ Aunque su uso no es obligatorio la **W3C** recomienda utilizar estas etiquetas p
 
 ![](images/capitulo-11/Capitulo-11-defs.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
     <rect id="rectangulo" width="40" height="40"/>
@@ -63,7 +63,7 @@ Vamos a ver qué podemos hacer si combinamos `<defs>` + `<use>` + `<g>`
 
 ![](images/capitulo-11/Capitulo-11-defsGroup.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
     <g id="cuadrados" fill="crimson"  transform="translate(150 50)">
@@ -113,7 +113,7 @@ fill: url(#degradado);
 }
 ~~~~~~~
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
     <pattern id="patron" width="40" height="40" patternUnits="userSpaceOnUse">
@@ -165,7 +165,7 @@ Ahora vamos a preparar el archivo que vamos a utilizar como sprite. Lo primero e
 
 Vamos a continuar preparando nuestro archivo de sprites. Ahora vamos a ir copiando el código de los archivos que queremos incluir dentro del sprite. Vamos a copiar todo el código que este comprendido entre las etiquetas ```<svg></svg>```, las etiquetas no las queremos. Ahora nos vamos a ir a nuestro ```sprite-images.svg``` y vamos a pegar todo el código entre dos etiquetas ```<g></g>``` a la etiqueta de apertura le vamos a asignar un ```id="robot-codepen"``` para mas tarde poder hacer referencia al **id=""**. Si dejamos al grupo sin nombre no vamos a poder llamarlo. Con los cuatro archivos restantes vamos a hacer exactamente lo mismo, al final tendremos que tener un archivo con el siguiente código. He omitido el código que tiene cada archivo **SVG** para no hacer muy extenso el ejemplo.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2976.5 299">
 
@@ -194,7 +194,7 @@ Vamos a continuar preparando nuestro archivo de sprites. Ahora vamos a ir copian
 
 Ahora que ya tenemos preparado nuestro sprite vamos a utilizarlo. Vamos a utilizar de nuevo la etiqueta ```<use>```, ahora en el atributo ```xlink:href=""``` le vamos a indicar la ruta donde se encuentra nuestro ```sprite-images.svg```, en mi caso esta en la carpeta raíz así que con poner el nombre es suficiente, en caso de que estuviera en una carpeta **images** la ruta sería la siguiente ```images/sprite-images.svg```. Ahora la ruta va acompañada de una almohadilla(#) y el nombre del grupo donde estaba la imagen, en primer lugar vamos a llamar al **SVG robot CodePen** que estaba dentro del grupo ```<g id="robot-codepen>``` quedando la etiqueta ```<use>```de la siguiente manera:
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg viewBox="0 0 595.3 299" class="recuadro">
     <use xlink:href="sprite-images.svg#robot-codepen"/>
@@ -203,7 +203,7 @@ Ahora que ya tenemos preparado nuestro sprite vamos a utilizarlo. Vamos a utiliz
 
 Una vez incluidas todas las imágenes el código quedará de la siguiente manera:
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <svg viewBox="0 0 595.3 299" class="recuadro">
     <use xlink:href="sprite-images.svg#robot-codepen"/>
@@ -329,14 +329,14 @@ Ahora vamos a llamar a los iconos desde el **HTML**. Esto lo podemos hacer de do
 
 La primera es a través de la etiqueta `img`, en `src` vamos a indicar la ruta donde se aloja nuestro archivo **SVG** y a continuación lo siguiente: `#svgView(viewBox(0,0,32,32))` todo esto da lugar al código que vemos a continuación.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <img src="http://jorgeatgu.com/libro/ejemplos/images/iconos.svg#svgView(viewBox(0,32,32,32))" class="iconos-size">
 ~~~~~~~
 
 El otro método que podemos utilizar es llamando al ID que hemos asignado a cada uno de los iconos.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <img src="http://jorgeatgu.com/libro/ejemplos/images/iconos.svg#codepen-view" class="iconos-size">
 ~~~~~~~

@@ -33,7 +33,7 @@ Un aviso antes de que os volváis locos, este método no funciona en local. Tend
 
 Aquí otro método que seguramente suene a más de uno y como bien sabéis es poco o nada recomendable. Solamente tenemos que incluir los estilos **CSS** en el propio **HTML** a través de la etiqueta `style`.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <style type="text/css">
   <![CDATA[
@@ -50,7 +50,7 @@ Aquí otro método que seguramente suene a más de uno y como bien sabéis es po
 
 Al igual que los *presentation attributes* también podemos usar estilos *inline* en **SVG** a través de `style`
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <circle cx="50" cy="10" r="50" style="fill: ivory; stroke: snow;"/>
 ~~~~~~~
@@ -59,7 +59,7 @@ Al igual que los *presentation attributes* también podemos usar estilos *inline
 
 Y por último el método más conocido, aplicar los estilos a través de una hoja de estilos externa gracias a la etiqueta `link` en el head del **HTML**.
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 
 <link rel="stylesheet" href="turuta.css">

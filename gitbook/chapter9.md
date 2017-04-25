@@ -22,7 +22,7 @@ Vamos a ver unos cuantos ejemplos con las diferentes opciones que tenemos a nues
 
 ![](images/capitulo-9/Capitulo-9-patterns.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<pattern id="patron" width="10" height="10" patternUnits="userSpaceOnUse">
@@ -75,7 +75,7 @@ En el ejemplo que vamos a ver a continuación aplicamos el `<mask>` con forma de
 
 ![](images/capitulo-9/Capitulo-9-mask.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<mask id="mask">
@@ -98,7 +98,7 @@ En el ejemplo que vamos a ver el trazado de recorte es un círculo que actúa so
 
 ![](images/capitulo-9/Capitulo-9-clipPath.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<clipPath id="recorte">
@@ -115,7 +115,7 @@ Vamos a ver otro ejemplo donde vamos a utilizar `<clipPath>` con texto, este rec
 
 ![](images/capitulo-9/Capitulo-9-clipPathtexto.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<clipPath id="texto">
@@ -141,7 +141,7 @@ Vamos a ver un ejemplo donde creamos un rectángulo con cuatro rectángulos cada
 
 ![](images/capitulo-9/Capitulo-9-symbol.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <symbol id="prueba">
 	<rect x="0" y="0" width="50" height="50" fill="crimson"/>

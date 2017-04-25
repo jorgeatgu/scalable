@@ -71,7 +71,7 @@ Con este filtro conseguimos rellenar el objeto con un color. Vamos a definir el 
 
 ![](images/capitulo-7/Capitulo-7-feFlood.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="feflood">
@@ -108,7 +108,7 @@ Con ***type*** tenemos dos valores, por defecto su valor es ***Turbulunce*** y e
 
 ![](images/capitulo-7/Capitulo-7-feTurbulence.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -156,7 +156,7 @@ En el ejemplo que vamos a ver a continuación se utiliza el filtro ***feTurbulen
 
 ![](images/capitulo-7/Capitulo-7-feImage.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="imagenconturbulencias" x="0" y="0" width="100%" height="100%">
@@ -193,7 +193,7 @@ Para ***luminanceToAplha*** no necesitamos ningún valor.
 
 ![](images/capitulo-7/Capitulo-7-feColorMatrix.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="saturate" filterUnits="objectBoundingBox">
@@ -233,7 +233,7 @@ Vamos a ver los diferentes efectos de los tipos sobre la misma imagen.
 
 ![](images/capitulo-7/Capitulo-7-feComponentTransfer.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="discrete">
@@ -302,7 +302,7 @@ En ***kernelMatrix*** vamos a indicar todos los valores, estará condicionado al
 
 ![](images/capitulo-7/Capitulo-7-feConlvolveMatrix.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -339,7 +339,7 @@ Con este filtro conseguimos el efecto de desenfoque gaussiano, si has utilizado 
 
 ![](images/capitulo-7/Capitulo-7-feGaussianBlur.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -372,7 +372,7 @@ Con este filtro vamos a transformar los píxeles de una imagen en formas geomét
 
 ![](images/capitulo-7/Capitulo-7-feDisplacementMap.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -409,7 +409,7 @@ Con este filtro vamos a generar un efecto de engorde o de adelgazamiento del obj
 
 ![](images/capitulo-7/Capitulo-7-feMorphology.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -446,7 +446,7 @@ Con este filtro vamos a desplazar a lo largo del documento la imagen, es ideal p
 
 ![](images/capitulo-7/Capitulo-7-feOffset.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno" width="150%" height="150%">
@@ -486,7 +486,7 @@ Con este filtro vamos a obtener imágenes mucho más claras, dispone de los atri
 
 ![](images/capitulo-7/Capitulo-7-feSpecularLightingDistantLight.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -521,7 +521,7 @@ Con este filtro vamos a conseguir un efecto similar al del sol, tenemos los atri
 
 ![](images/capitulo-7/Capitulo-7-feSpecularLightingPointLight.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -554,7 +554,7 @@ Con este filtro vamos a añadir una luz focal a las imágenes, tenemos ***los at
 
 ![](images/capitulo-7/Capitulo-7-feSpecularLightingSpotLight.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno">
@@ -590,7 +590,7 @@ Con este filtro vamos a fusionar dos imágenes a través de diferentes métodos 
 
 ![](images/capitulo-7/Capitulo-7-feBlend.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="normal" width="100%" height="100%" filterUnits="userSpaceOnUse">
@@ -639,7 +639,7 @@ Con este filtro conseguimos mezclar dos imágenes los algoritmos de ***Porter-Du
 
 ![](images/capitulo-7/Capitulo-7-feComposite.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <filter id="over" width="100%" height="100%" filterUnits="userSpaceOnUse">
   <feImage x="0" y="0" width="25%" height="25%" xlink:href="http://jorgeatgu.com/libro/images/calendario.svg" result="img1"/>
@@ -692,7 +692,7 @@ Con el atributo `feTile` vamos a conseguir un efecto muy similar al de pattern, 
 
 ![](images/capitulo-7/Capitulo-7-feTile.jpg)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <defs>
 	<filter id="uno" >

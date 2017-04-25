@@ -15,7 +15,7 @@ Como ya he dicho anteriormente el soporte de **WAI-ARIA** en **SVG** será ofici
 
 A continuación el código que he empleado con [VoiceOver](https://www.apple.com/es/accessibility/osx/voiceover/) y [ChromeVox](http://www.chromevox.com/)
 
-{lang="html", linenos="off"}
+
 ~~~~~~~
 <title id="title">Los patterns en SVG.</title>
 <desc id="desc">A continuación vamos a ver tres ejemplos que utilizan la etiqueta patterns sobre elementos gráficos.</desc>
