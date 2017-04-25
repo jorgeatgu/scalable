@@ -15,11 +15,11 @@ Para mover un grupo vamos a tener que recurrir a `transform=”translate”` ya 
 {lang="html", linenos="off"}
 ~~~~~~~
 <g fill="crimson" transform="rotate(45)">
-	<rect x="100" y="30" width="40" height="40"/>
-	<rect x="150" y="30" width="40" height="40"/>
-	<rect x="200" y="30" width="40" height="40"/>
-	<rect x="250" y="30" width="40" height="40"/>
-	<rect x="300" y="30" width="40" height="40"/>
+    <rect x="100" y="30" width="40" height="40"/>
+    <rect x="150" y="30" width="40" height="40"/>
+    <rect x="200" y="30" width="40" height="40"/>
+    <rect x="250" y="30" width="40" height="40"/>
+    <rect x="300" y="30" width="40" height="40"/>
 </g>
 ~~~~~~~
 [![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/qexKf/)
@@ -45,8 +45,8 @@ Aunque su uso no es obligatorio la **W3C** recomienda utilizar estas etiquetas p
 {lang="html", linenos="off"}
 ~~~~~~~
 <defs>
-	<rect id="rectangulo" width="40" height="40"/>
-	<circle id="circulo" r="30"/>
+    <rect id="rectangulo" width="40" height="40"/>
+    <circle id="circulo" r="30"/>
 </defs>
 <use xlink:href="#rectangulo" x="300" y="200"fill="crimson"/>
 <use xlink:href="#circulo" x="250" y="300" fill="gold"/>
@@ -66,13 +66,13 @@ Vamos a ver qué podemos hacer si combinamos `<defs>` + `<use>` + `<g>`
 {lang="html", linenos="off"}
 ~~~~~~~
 <defs>
-	<g id="cuadrados" fill="crimson"  transform="translate(150 50)">
-		<rect x="30" y="30" width="40" height="40"/>
-		<rect x="80" y="30" width="40" height="40"/>
-		<rect x="130" y="30" width="40" height="40"/>
-		<rect x="180" y="30" width="40" height="40"/>
-		<rect x="230" y="30" width="40" height="40"/>
-	</g>
+    <g id="cuadrados" fill="crimson"  transform="translate(150 50)">
+        <rect x="30" y="30" width="40" height="40"/>
+        <rect x="80" y="30" width="40" height="40"/>
+        <rect x="130" y="30" width="40" height="40"/>
+        <rect x="180" y="30" width="40" height="40"/>
+        <rect x="230" y="30" width="40" height="40"/>
+    </g>
 </defs>
 
 <use xlink:href="#cuadrados"/>
@@ -116,34 +116,34 @@ fill: url(#degradado);
 {lang="html", linenos="off"}
 ~~~~~~~
 <defs>
-	<pattern id="patron" width="40" height="40" patternUnits="userSpaceOnUse">
-		<circle cx="20" cy="20" r="20" fill="crimson"/>
-	</pattern>
-	<filter id="filtro" filterUnits="objectBoundingBox">
-		<feColorMatrix type="hueRotate" in="SourceGraphic" values="60"/>
-	</filter>
-	<linearGradient id="degradado" gradientUnits="objectBoundingBox">
-		<stop offset="0%" stop-color="khaki"/>
-		<stop offset="10%" stop-color="khaki"/>
-		<stop offset="10%" stop-color="crimson"/>
-		<stop offset="20%" stop-color="crimson"/>
-		<stop offset="20%" stop-color="khaki"/>
-		<stop offset="30%" stop-color="khaki"/>
-		<stop offset="30%" stop-color="crimson"/>
-		<stop offset="40%" stop-color="crimson"/>
-		<stop offset="40%" stop-color="khaki"/>
-		<stop offset="50%" stop-color="khaki"/>
-		<stop offset="50%" stop-color="crimson"/>
-		<stop offset="60%" stop-color="crimson"/>
-		<stop offset="60%" stop-color="khaki"/>
-		<stop offset="70%" stop-color="khaki"/>
-		<stop offset="70%" stop-color="crimson"/>
-		<stop offset="80%" stop-color="crimson"/>
-		<stop offset="80%" stop-color="khaki"/>
-		<stop offset="90%" stop-color="khaki"/>
-		<stop offset="90%" stop-color="crimson"/>
-		<stop offset="100%" stop-color="crimson"/>
-	</linearGradient>
+    <pattern id="patron" width="40" height="40" patternUnits="userSpaceOnUse">
+        <circle cx="20" cy="20" r="20" fill="crimson"/>
+    </pattern>
+    <filter id="filtro" filterUnits="objectBoundingBox">
+        <feColorMatrix type="hueRotate" in="SourceGraphic" values="60"/>
+    </filter>
+    <linearGradient id="degradado" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="khaki"/>
+        <stop offset="10%" stop-color="khaki"/>
+        <stop offset="10%" stop-color="crimson"/>
+        <stop offset="20%" stop-color="crimson"/>
+        <stop offset="20%" stop-color="khaki"/>
+        <stop offset="30%" stop-color="khaki"/>
+        <stop offset="30%" stop-color="crimson"/>
+        <stop offset="40%" stop-color="crimson"/>
+        <stop offset="40%" stop-color="khaki"/>
+        <stop offset="50%" stop-color="khaki"/>
+        <stop offset="50%" stop-color="crimson"/>
+        <stop offset="60%" stop-color="crimson"/>
+        <stop offset="60%" stop-color="khaki"/>
+        <stop offset="70%" stop-color="khaki"/>
+        <stop offset="70%" stop-color="crimson"/>
+        <stop offset="80%" stop-color="crimson"/>
+        <stop offset="80%" stop-color="khaki"/>
+        <stop offset="90%" stop-color="khaki"/>
+        <stop offset="90%" stop-color="crimson"/>
+        <stop offset="100%" stop-color="crimson"/>
+    </linearGradient>
 </defs>
 <image class="filtro" xlink:href="zgzsky.jpg" width="200" height="200" y="50" x="150"/>
 <rect class="patron" width="200" height="200" x="500" y="150"/>
@@ -170,23 +170,23 @@ Vamos a continuar preparando nuestro archivo de sprites. Ahora vamos a ir copian
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2976.5 299">
 
 <g id="robot-codepen">
-	----->Aquí va todo el código de robot-codepen
+    ----->Aquí va todo el código de robot-codepen
 </g>
 
 <g id="perfil-codepen">
-	----->Aquí va todo el código de perfil-codepen
+    ----->Aquí va todo el código de perfil-codepen
 </g>
 
 <g id="github">
-	----->Aquí va todo el código de github
+    ----->Aquí va todo el código de github
 </g>
 
 <g id="visible">
-	----->Aquí va todo el código de visible
+    ----->Aquí va todo el código de visible
 </g>
 
 <g id="filtros">
-	----->Aquí va todo el código de filtros
+    ----->Aquí va todo el código de filtros
 </g>
 
 </svg>
@@ -197,7 +197,7 @@ Ahora que ya tenemos preparado nuestro sprite vamos a utilizarlo. Vamos a utiliz
 {lang="html", linenos="off"}
 ~~~~~~~
 <svg viewBox="0 0 595.3 299" class="recuadro">
-	<use xlink:href="sprite-images.svg#robot-codepen"/>
+    <use xlink:href="sprite-images.svg#robot-codepen"/>
 </svg>
 ~~~~~~~
 
@@ -206,31 +206,31 @@ Una vez incluidas todas las imágenes el código quedará de la siguiente manera
 {lang="html", linenos="off"}
 ~~~~~~~
 <svg viewBox="0 0 595.3 299" class="recuadro">
-	<use xlink:href="sprite-images.svg#robot-codepen"/>
+    <use xlink:href="sprite-images.svg#robot-codepen"/>
 </svg>
 
 -->HTML
 
 <svg viewBox="0 0 595.3 299" class="recuadro">
-	<use xlink:href="sprite-images.svg#perfil-codepen"/>
+    <use xlink:href="sprite-images.svg#perfil-codepen"/>
 </svg>
 
 -->HTML
 
 <svg viewBox="0 0 595.3 299" class="recuadro">
-	<use xlink:href="sprite-images.svg#github"/>
+    <use xlink:href="sprite-images.svg#github"/>
 </svg>
 
 -->HTML
 
 <svg viewBox="0 0 595.3 299" class="recuadro">
-	<use xlink:href="sprite-images.svg#visible"/>
+    <use xlink:href="sprite-images.svg#visible"/>
 </svg>
 
 -->HTML
 
 <svg viewBox="0 0 595.3 299" class="recuadro">
-	<use xlink:href="sprite-images.svg#filtros"/>
+    <use xlink:href="sprite-images.svg#filtros"/>
 </svg>
 ~~~~~~~
 
@@ -260,11 +260,22 @@ Mucho cuidado los SVG que estén dentro del sprite y que contengan filtros o deg
 
 Las malas son que esto no tiene soporte en ninguna versión de **Internet Explorer**, tampoco en IE11. Como suele pasar este método funciona sin ningún tipo de problema en los navegadores modernos.
 
+##svg4everybody
+
 Las buenas es que como siempre hay alguien haciendo cosas que molan por amor al arte, en este caso [Jonathan Neal](https://github.com/jonathantneal) se ha currado un ***polyfill*** para que funcione en Internet Explorer. Simplemente tenemos que subir el script a nuestro servidor y agregar el siguiente código con la ruta donde está alojado nuestro script a nuestro **HTML** ```<script src="js/svg4everybody.js"></script>```. Que menos que darle una estrellita al [repo de GitHub](https://github.com/jonathantneal/svg4everybody).
 
 La demo que he subido a mi web lleva incluido el ***polyfill*** para que veáis que si que funciona en ese navegador llamado **Internet Explorer**.
 
 ![](images/capitulo-11/Capitulo-11-internet-explorer-svgsprite.jpg)
+
+##svgxuse
+
+Otra alternativa para dar soporte a Internet Explorer 9, 10 y 11 es svgxuse creada por [Keyamoon](https://twitter.com/keyamoon), conocido por se el creador de [Icomoon](https://icomoon.io/app/#/select). Svgxuse es una librería mas ligera que svg4everybody ya que carece de soporte para las versiones anteriores a Internet Explorer 9. En navegadores con soporte la librería tampoco hara ninguna petición extra.
+
+El uso es bastante sencillo, simplemente vamos a cargar la librería en nuestro **HTML** con ```<script src="svgxuse.js" defer></script>```
+
+El repo de [GitHub de svgxuse](https://github.com/Keyamoon/svgxuse)
+
 
 ***COMPARATIVA***
 
@@ -278,87 +289,9 @@ Mi [página de trabajos](http://jorgeatgu.com/trabajos) con los **SVG** cargados
 
 ![](images/capitulo-11/Capitulo-11-con-svg-sprite-map.jpg)
 
-Como podéis apreciar en las imágenes me ahorro un montón de ***resquets*** y la página carga **bastante más rápido**.
+Como podéis apreciar en las imágenes me ahorro un montón de ***request*** y la página carga **mucho más rápido**.
 
 Lo único malo es que cuando utilizamos esta técnica de importar partes de otro **SVG** aquellos que contengan filtros no se van a importar. Tampoco importa los degradados, así que aquellos elementos que contengan degradados se quedarán de color negro.
-
-## Métodos para aplicar estilos CSS a SVG
-
-A lo largo de libro hemos ido aplicando los estilos a través de los *presentation attributes* o atributos de presentación de tal manera que aplicamos el estilo en la propia etiqueta del elemento. Ahora vamos a ver otros métodos para aplicar diferentes estilos a nuestros **SVG**.
-
-### A través de una etiqueta XML
-
-Podemos aplicar una hoja de estilos directamente en nuestros archivos **SVG** a través de una etiqueta `xml`. Para ello vamos a colocar en la cabecera de nuestro **SVG** la siguiente etiqueta **XML**.
-
-{lang="xml", linenos="off"}
-~~~~~~~
-<? xml-stylesheet href="style.css" type="text/css" ?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2976.5 299">
-
-<rect class="rectangulo" width="50" height="50"/>
-</svg>
-~~~~~~~
-
-Ahora en nuestro archivo `style.css` aplicamos los estilos al rectángulo.
-
-{lang="css", linenos="off"}
-~~~~~~~
-.rectangulo {
-fill: crimson;
-stroke: black;
-}
-~~~~~~~
-
-Un aviso antes de que os volváis locos, este método no funciona en local. Tendréis que lanzar un servidor desde vuestro ordenador por ejemplo con Grunt, Gulp, CodeKit, GhostLab podéis ver como la hoja de estilos aplica los estilos al **SVG**. La otra opción es si disponéis de un servidor web subir el **SVG** y los **CSS** al servidor.
-
-### A través del style en el HTML
-
-Aquí otro método que seguramente suene a más de uno y como bien sabéis es poco o nada recomendable. Solamente tenemos que incluir los estilos **CSS** en el propio **HTML** a través de la etiqueta `style`.
-
-{lang="html", linenos="off"}
-~~~~~~~
-<style type="text/css">
-  <![CDATA[
- circle {
- fill: navajowhite;
- stroke: orange;
- }
-  ]]>
-</style>
-<circle cx="50" cy="10" r="50"/>
-~~~~~~~
-
-### A través de la etiqueta style en SVG
-
-Al igual que los *presentation attributes* también podemos usar estilos *inline* en **SVG** a través de `style`
-
-{lang="html", linenos="off"}
-~~~~~~~
-<circle cx="50" cy="10" r="50" style="fill: ivory; stroke: snow;"/>
-~~~~~~~
-
-### A través de un archivo CSS externo
-
-Y por último el método más conocido, aplicar los estilos a través de una hoja de estilos externa gracias a la etiqueta `link` en el head del **HTML**.
-
-{lang="html", linenos="off"}
-~~~~~~~
-
-<link rel="stylesheet" href="turuta.css">
-
-
-<circle cx="50" cy="10" r="50" class="circulo"/>
-~~~~~~~
-
-{lang="css", linenos="off"}
-~~~~~~~
-
-.circulo {
-fill: tomato;
-stroke: snow;
-}
-
-~~~~~~~
 
 ## Fragmentos identificadores
 
