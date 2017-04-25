@@ -68,3 +68,11 @@ Para cualquier consulta puedes ponerte en contacto conmigo a través de [twitter
 > En el capítulo 7 he añadido la nueva version de FILDROP, una herramienta para ver los efectos de los diferentes filtros sobre archivos en formato PNG, JPEG y SVG. En esta nueva versión puedes modificar en vivo y en directo los valores de algunos filtros, para así hacer tus propios filtros. Todo el código generado lo puedes copiar fácilmente desde el desplegable. También puedes bajarte los archivos SVG y CSS para emplearlos fácilmente en cualquier proyecto.
 
 > He borrado el capítulo borrador que hacia referencia a SVG 2, voy a esperar hasta que este todo definido. El roadmap(http://www.w3.org/Graphics/SVG/WG/wiki/Roadmap) del grupo de SVG de la W3C tiene previsto que se convierta en recomendación en diciembre de 2016, ya veremos.
+
+* **27/04/2017**: SCALABLE 1.5
+
+> En esta nueva versión he incluido en el capítulo 2 las nuevas opciones disponibles para exportar SVG desde la nueva versión de Adobe Illustrator(publicada a principios de diciembre de 2015). Una gran mejora.
+
+> En el capítulo 7 he añadido la nueva version de FILDROP, una herramienta para ver los efectos de los diferentes filtros sobre archivos en formato PNG, JPEG y SVG. En esta nueva versión puedes modificar en vivo y en directo los valores de algunos filtros, para así hacer tus propios filtros. Todo el código generado lo puedes copiar fácilmente desde el desplegable. También puedes bajarte los archivos SVG y CSS para emplearlos fácilmente en cualquier proyecto.
+
+> He borrado el capítulo borrador que hacia referencia a SVG 2, voy a esperar hasta que este todo definido. El roadmap(http://www.w3.org/Graphics/SVG/WG/wiki/Roadmap) del grupo de SVG de la W3C tiene previsto que se convierta en recomendación en diciembre de 2016, ya veremos.
