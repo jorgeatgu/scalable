@@ -149,3 +149,10 @@ La gran ventaja es que una vez que hemos importado el **SVG** vamos a tener plen
 Otra de las opciones que tenemos en el panel derecho es la de comparar el **SVG** que estamos optimizando con su versión original. Y ya por último el apartado precisión nos dará pleno control sobre el tan manido tema de los decimales, mucho ojo ya que por defecto viene con tres decimales y ya sabéis que con uno es más que suficiente.
 
 [SVGOMG](https://jakearchibald.github.io/svgomg/)
+
+##SVGO para Sketch
+
+Un nuevo plugin de SVGO, esta vez para el maravilloso Sketch. Simplemente tenemos que descargarnos el plugin desde [GitHub](https://github.com/BohemianCoding/svgo-compressor) e instalarlo. Las opciones de las que disponemos son las mismas que el original. En esta ocasión viene una configuración por defecto, si nos estamos cómodos con esta configuración podemos editarla a nuestro gusto. Para ello vamos a ir a Plugins > SVGO Compressor > About SVGO Compressor > Edit SVGO Settings.
+
+[SVG para Sketch](https://github.com/BohemianCoding/svgo-compressor)
+
