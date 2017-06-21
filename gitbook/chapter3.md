@@ -10,7 +10,7 @@ Con el ***namespace*** `xmlns="http://www.w3.org/2000/svg"` le indicamos al nave
 
 En mi opinión como no sabemos el camino que va a recorrer nuestro **SVG** y como puede ser incluído de varias maneras, en línea dentro de **HTML5**, en etiquetas `<img>` `<object>` `<iframe>` `<embed>`, a través de la propia etiqueta `<image>` de **SVG** y también como `background-image` en **CSS**, sin olvidarnos de que también puede ser incluido a través de **data-URI** lo mejor que podemos hacer es incluir estos dos ***namespaces*** que apenas ocupan espacio y que como ya hemos visto anteriormente son incluidos a la hora de exportar desde programas vectoriales como **Inkscape, Illustrator y Sketch**.
 
-![](images/capitulo-3/Capitulo-3-namespaces.jpg)
+![](images/Capitulo-3/Capitulo-3-namespaces.jpg)
 
 
 ~~~~~~~
@@ -90,7 +90,7 @@ En el ejemplo que vamos a ver a continuación todas las medidas son iguales que 
 
 En la siguiente imagen vamos a ver la comparación entre los dos ***viewBox***, y el efecto de zoom que genera la reducción del ***viewBox*** en el segundo archivo.
 
-![](images/capitulo-3/Capitulo-3-viewBox.jpg)
+![](images/Capitulo-3/Capitulo-3-viewBox.jpg)
 
 [![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/pen/jGBqf)
 
@@ -116,7 +116,7 @@ El atributo ***preserveAspectRatio*** consta de dos valores separados por un esp
 
 Vamos a ver un ejemplo que incluye varias, cada combinación ocupa el 33% del ancho del documento y el 10% del alto para que así podamos ver todas las opciones en el mismo documento. A parte y para que se vea por separado el efecto de cada combinación he creado un ejemplo con cada combinación.
 
-![](images/capitulo-3/capitulo-3-preserveaspectratio.jpg)
+![](images/Capitulo-3/capitulo-3-preserveaspectratio.jpg)
 
 - La primera combinación es ***xMinYMin*** se alinea con la esquina superior izquierda.
 - La segunda combinación es ***xMidYMin*** se alinea en parte superior central.
@@ -163,7 +163,7 @@ En el código que vais a ver a continuación para que se asocie mejor el efecto 
 
 Por último vamos a ver el segundo valor que le podemos dar a ***preserveAspectRatio***, este valor es opcional y tiene tres opciones, **meet** que es su valor por defecto, ***slice*** y ***none***. Con ***meet*** lo que hacemos es encajar el objeto dentro de las medidas del documento. Con ***slice*** lo que hacemos es es que en el caso de que el objeto sea mayor que las medidas del documento el objeto se saldrá del propio documento donde está ubicado. La última es ***none***, el objeto se escala de la manera que sea para encajar en el documento, lo más probable es que el objeto quede distorsionado.
 
-![](images/capitulo-3/Capitulo-3-preserveAspectRatio-slice.jpg)
+![](images/Capitulo-3/Capitulo-3-preserveAspectRatio-slice.jpg)
 
 En el código que vais a ver a continuación para que se asocie mejor el efecto con la imagen sólo he dejado el la etiqueta principal con su valores, el resto del código lo podéis consultar en **CodePen** o en los archivos del .zip
 

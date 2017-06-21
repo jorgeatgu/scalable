@@ -41,7 +41,7 @@ Vamos a utilizar el mismo degradado para los tres rectángulos, sólo voy a pone
 
 Ahora vamos a ver las diferentes opciones, recordad que sólo vamos a ver las etiquetas principales y que dentro de ellas debería de ir el código que acabamos de ver.
 
-![](images/capitulo-8/Capitulo-8-linearGradient.jpg)
+![](images/Capitulo-8/Capitulo-8-linearGradient.jpg)
 
 
 ~~~~~~~
@@ -81,7 +81,7 @@ Para posicionar el degradado radial tenemos tres coordenadas, estás son ***cx c
 
 Una vez definidas las propiedades de nuestro degradado vamos a pasar a definir que colores y que posiciones van a tener a lo largo del degradado. Para ello tenemos que utilizar la etiqueta stop, esta etiqueta tiene dos atributos, el primero de ellos `stop-color=””` lo utilizamos para definir el color que queremos en esa franja del degradado, el segundo es ***offset*** y lo utilizaremos para indicar la posición que queremos que ocupe este color en el degradado, admite números del 0 al 1, y porcentajes del 0% al 100%, quizás nos sea más fácil utilizar los porcentajes como unidad.
 
-![](images/capitulo-8/Capitulo-8-radialGradient.jpg)
+![](images/Capitulo-8/Capitulo-8-radialGradient.jpg)
 
 
 ~~~~~~~
@@ -115,7 +115,7 @@ Este atributo sirve para ***linearGradient*** y ***radialGradient***, se utiliza
 
 Vamos a ver un ejemplo utilizando todos los valores con este orden ***pad repeat reflect***.
 
-![](images/capitulo-8/Capitulo-8-spreadMethod.jpg)
+![](images/Capitulo-8/Capitulo-8-spreadMethod.jpg)
 
 
 ~~~~~~~
@@ -155,7 +155,7 @@ Las transformaciones se añaden a las etiquetas `<linearGradient>` y `<radialGra
 
 En el ejemplo que vamos a ver a continuación he aplicado al mismo degradado un `gradientTransform="rotate(25)"` y un `gradientTransform="translate(45)"`
 
-![](images/capitulo-8/Capitulo-8-gradientTransform.jpg)
+![](images/Capitulo-8/Capitulo-8-gradientTransform.jpg)
 
 [![](images/logo-codepen.jpg)](http://codepen.io/jorgeatgu/details/nxyHE/)
 

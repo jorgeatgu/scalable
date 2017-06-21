@@ -48,18 +48,18 @@ Para acceder a los ejemplos alojados en **CodePen** hay que pinchar en el logo d
 
 Cuando hacemos click vamos a ver una pantalla como esta.
 
-![](images/capitulo-1/introduccion-primera-vista-codepen.jpg)
+![](images/Capitulo-1/introduccion-primera-vista-codepen.jpg)
 
 Ahora vamos a hacer click en ***details*** y luego hacemos click en ***editor***
 
-![](images/capitulo-1/introduccion-opciones-menu-editor-codepen.jpg)
+![](images/Capitulo-1/introduccion-opciones-menu-editor-codepen.jpg)
 
 Ahora vamos a ver la imagen con tres celdas en las que se aloja el código **HTML, CSS y JS**.
 
-![](images/capitulo-1/introduccion-editar-codepen.jpg)
+![](images/Capitulo-1/introduccion-editar-codepen.jpg)
 
 A nosotros en esta ocasión solamente nos interesa el **HTML**, así que vamos a hacer click en el icono que esta situado a la derecha del todo, al hacer click en este ícono vamos a expandir el **HTML** y ocultar las celdas de **CSS** y **JS**.
 
-![](images/capitulo-1/introduccion-expandir-html-codepen.jpg)
+![](images/Capitulo-1/introduccion-expandir-html-codepen.jpg)
 
 Ahora solamente tenemos que editar el ejemplo con los valores que queramos.

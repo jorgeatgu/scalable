@@ -8,7 +8,7 @@ Antes de empezar a comentar las etiquetas hay que tener en cuenta que si queremo
 
 Para añadir texto en **SVG** tenemos la etiqueta `<text>`. El texto como el resto de elementos que hemos visto a lo largo del libro lo podemos posicionar horizontalmente en el documento con la coordenada ***x***, y verticalmente con la coordenada ***y***. También disponemos del atributo ***textLength*** para añadir espacio a las letras, ***rotate*** para rotar, y ***lengthAdjust*** para ajustar.
 
-![](images/capitulo-5/Capitulo-5-texto.jpg)
+![](images/Capitulo-5/Capitulo-5-texto.jpg)
 
 
 ~~~~~~~
@@ -31,7 +31,7 @@ La etiqueta `<tspan>` nos permite posicionar absolutamente o relativamente los c
 
 Vamos a hacer varias combinaciones para ver lo que podemos hacer.
 
-![](images/capitulo-5/Capitulo-5-tspan.jpg)
+![](images/Capitulo-5/Capitulo-5-tspan.jpg)
 
 
 ~~~~~~~
@@ -62,7 +62,7 @@ Vamos a hacer varias combinaciones para ver lo que podemos hacer.
 Con la etiqueta `<textPath>` logramos que un texto fluya a lo largo de un `<path>` que hemos declarado previamente. El path donde fluya el texto deberá ir referenciado con un ***ID***. Este ***ID*** se lo pasaremos al ***textPath*** con `xlink:href=”#ejemplo”`, a través del atributo ***startOffset*** vamos a indicarle donde queremos que empiece a fluir el texto, por defecto su valor es de 0%.
 
 
-![](images/capitulo-5/Capitulo-5-textPath.jpg)
+![](images/Capitulo-5/Capitulo-5-textPath.jpg)
 
 
 ~~~~~~~

@@ -69,7 +69,7 @@ A continuación una lista que divide los filtros por categorías:
 
 Con este filtro conseguimos rellenar el objeto con un color. Vamos a definir el área con los atributos ***x y width height***. Con el atributo ***color-flood*** le indicamos el color que queremos que utilice para el relleno y con ***color-opacity*** la opacidad que va a tener el filtro.
 
-![](images/capitulo-7/Capitulo-7-feFlood.jpg)
+![](images/Capitulo-7/Capitulo-7-feFlood.jpg)
 
 
 ~~~~~~~
@@ -106,7 +106,7 @@ Con ***stichTiles*** tenemos dos valores, por defecto es ***noStitch***, y el se
 
 Con ***type*** tenemos dos valores, por defecto su valor es ***Turbulunce*** y el segundo valor es ***FractalNoise***, a continuación vamos a ver un ejemplo donde vamos a poder ver el efecto de este atributo.
 
-![](images/capitulo-7/Capitulo-7-feTurbulence.jpg)
+![](images/Capitulo-7/Capitulo-7-feTurbulence.jpg)
 
 
 ~~~~~~~
@@ -154,7 +154,7 @@ Este filtro no es propiamente un filtro. Lo vamos a utilizar para aplicar un efe
 
 En el ejemplo que vamos a ver a continuación se utiliza el filtro ***feTurbulence*** y ***feImage***.
 
-![](images/capitulo-7/Capitulo-7-feImage.jpg)
+![](images/Capitulo-7/Capitulo-7-feImage.jpg)
 
 
 ~~~~~~~
@@ -191,7 +191,7 @@ Para ***hueRotate*** sólo necesitamos un valor en grados que tiene que estar en
 
 Para ***luminanceToAplha*** no necesitamos ningún valor.
 
-![](images/capitulo-7/Capitulo-7-feColorMatrix.jpg)
+![](images/Capitulo-7/Capitulo-7-feColorMatrix.jpg)
 
 
 ~~~~~~~
@@ -231,7 +231,7 @@ Con este filtro vamos a poder modificar por separado los cuatro canales de la im
 
 Vamos a ver los diferentes efectos de los tipos sobre la misma imagen.
 
-![](images/capitulo-7/Capitulo-7-feComponentTransfer.jpg)
+![](images/Capitulo-7/Capitulo-7-feComponentTransfer.jpg)
 
 
 ~~~~~~~
@@ -300,7 +300,7 @@ Con ***order*** le indicamos el número de valores que va a tener nuestra matriz
 
 En ***kernelMatrix*** vamos a indicar todos los valores, estará condicionado al valor que tenga ***order***.
 
-![](images/capitulo-7/Capitulo-7-feConlvolveMatrix.jpg)
+![](images/Capitulo-7/Capitulo-7-feConlvolveMatrix.jpg)
 
 
 ~~~~~~~
@@ -337,7 +337,7 @@ La fotografía se ve más clara en **Safari**.
 
 Con este filtro conseguimos el efecto de desenfoque gaussiano, si has utilizado **Adobe Photoshop** seguramente te sonará este filtro. Solamente tenemos el atributo ***stdDesviation*** con el cual indicamos la potencia de desenfoque del filtro, si solamente le pasamos un valor este servirá tanto para el desenfoque horizontal como vertical, si le pasamos dos valores el primero será para el desenfoque horizontal y el segundo para el desenfoque vertical.
 
-![](images/capitulo-7/Capitulo-7-feGaussianBlur.jpg)
+![](images/Capitulo-7/Capitulo-7-feGaussianBlur.jpg)
 
 
 ~~~~~~~
@@ -370,7 +370,7 @@ La fotografía se ve más clara en **Safari**.
 
 Con este filtro vamos a transformar los píxeles de una imagen en formas geométricas. Para ello vamos a utilizar los canales R, G, B y A de la imagen a través del atributo ***xChannelSelector*** para seleccionar el canal horizontal, con ***yChannelSelector*** vamos a seleccionar el canal vertical, ambos utilizarán por defecto el canal A. Por último con el atributo scale determinamos el tamaño de la distorsión, por defecto su valor es de 0.
 
-![](images/capitulo-7/Capitulo-7-feDisplacementMap.jpg)
+![](images/Capitulo-7/Capitulo-7-feDisplacementMap.jpg)
 
 
 ~~~~~~~
@@ -407,7 +407,7 @@ El efecto en **Safari** es ligeramente diferente al de **Opera y Chrome**.
 
 Con este filtro vamos a generar un efecto de engorde o de adelgazamiento del objeto. Para ello disponemos del atributo operator que tiene dos opciones, ***erode*** y ***dilate***, su valor por defecto es ***erode*** con el cual adelgazamos la imagen, el otro es ***dilate*** con el que conseguimos expandir la imagen. Con el atributo ***radius*** le indicamos el tamaño de la transformación, si sólo le pasamos un valor este será para la coordenada horizontal y vertical, si le pasamos dos valores el primero de ellos corresponderá a la coordenada horizontal y el segundo a la coordenada vertical.
 
-![](images/capitulo-7/Capitulo-7-feMorphology.jpg)
+![](images/Capitulo-7/Capitulo-7-feMorphology.jpg)
 
 
 ~~~~~~~
@@ -444,7 +444,7 @@ En **Safari** la imagen se ve más clara.
 
 Con este filtro vamos a desplazar a lo largo del documento la imagen, es ideal para crear un efecto de sombra o ***drop shadow*** al texto. Para desplazar el efecto a lo largo del documento disponemos de los atributos ***dx*** para el eje horizontal y ***dy*** para el eje vertical.
 
-![](images/capitulo-7/Capitulo-7-feOffset.jpg)
+![](images/Capitulo-7/Capitulo-7-feOffset.jpg)
 
 
 ~~~~~~~
@@ -484,7 +484,7 @@ Para conseguir efectos de luz a través de los filtros tenemos a nuestra disposi
 
 Con este filtro vamos a obtener imágenes mucho más claras, dispone de los atributos ***azimuth*** y ***elevation***, a los dos le pasaremos valores desde 0 a 360 grados, por defecto su valor es de 0.
 
-![](images/capitulo-7/Capitulo-7-feSpecularLightingDistantLight.jpg)
+![](images/Capitulo-7/Capitulo-7-feSpecularLightingDistantLight.jpg)
 
 
 ~~~~~~~
@@ -519,7 +519,7 @@ En **IE10, IE11 y Firefox** el efecto es el mismo.
 
 Con este filtro vamos a conseguir un efecto similar al del sol, tenemos los atributos ***x*** e ***y*** para posicionar el efecto a lo largo de la imagen, y el atributo ***z*** para aumentar el radio del efecto.
 
-![](images/capitulo-7/Capitulo-7-feSpecularLightingPointLight.jpg)
+![](images/Capitulo-7/Capitulo-7-feSpecularLightingPointLight.jpg)
 
 
 ~~~~~~~
@@ -552,7 +552,7 @@ En **iOS7** el lugar donde se aplica el filtro cambia de posición.
 
 Con este filtro vamos a añadir una luz focal a las imágenes, tenemos ***los atributos ***x***, ***y***, ***z*** para posicionar el foco a lo largo del documento, con los atributos ***PointsAtX***, ***PointsAtY*** y ***PointsAtZ*** vamos a indicar lo que ocupará el foco en los ejes horizontal y vertical, por último con el ***limitingConeAngle*** vamos a indicar el ángulo que va a ocupar el foco.
 
-![](images/capitulo-7/Capitulo-7-feSpecularLightingSpotLight.jpg)
+![](images/Capitulo-7/Capitulo-7-feSpecularLightingSpotLight.jpg)
 
 
 ~~~~~~~
@@ -588,7 +588,7 @@ Con este filtro combinamos varios filtros a la vez en lugar de uno de tras de ot
 
 Con este filtro vamos a fusionar dos imágenes a través de diferentes métodos de fusión, los cuales son ***normal***, ***multiply***, ***screen***, ***darken*** y ***lighten***. Para indicar las imágenes que queremos fusionar disponemos de los atributos ***in*** e ***in2***.
 
-![](images/capitulo-7/Capitulo-7-feBlend.jpg)
+![](images/Capitulo-7/Capitulo-7-feBlend.jpg)
 
 
 ~~~~~~~
@@ -637,7 +637,7 @@ Con este filtro vamos a fusionar dos imágenes a través de diferentes métodos 
 
 Con este filtro conseguimos mezclar dos imágenes los algoritmos de ***Porter-Duff(Compositing Digital Images, T. Porter and T. Duff. SIGGRAPH '84 Conference Proceedings, Association for Computing Machinery, Volume 18, Number 3, July 1984)*** para ello tenemos a nuestra disposición el atributo ***operator***, el cual soporta las siguientes operaciones, ***over***, ***in***, ***out***, ***atop***, ***xor***, y ***arithmetic***. Este último es el único que no es un atributo simple y su resultado depende de los atributos ***k1*** que representa el múltiplo de las dos imágenes, ***k2*** representa el efecto lineal de la primera imagen, ***k3*** representa el efecto lineal de la segunda imagen y por último ***k4*** que representa el ajuste del brillo.
 
-![](images/capitulo-7/Capitulo-7-feComposite.jpg)
+![](images/Capitulo-7/Capitulo-7-feComposite.jpg)
 
 
 ~~~~~~~
@@ -690,7 +690,7 @@ Con este filtro conseguimos mezclar dos imágenes los algoritmos de ***Porter-Du
 ## feTile
 Con el atributo `feTile` vamos a conseguir un efecto muy similar al de pattern, vamos a rellenar todo el ancho y largo del objeto al que le aplicamos el filtro. Para utilizarlo simplemente tenemos que añadir la etiqueta `<feTile/>` antes de la cierre de `</filter>` como veis la barra horizontal va al final y no al principio.
 
-![](images/capitulo-7/Capitulo-7-feTile.jpg)
+![](images/Capitulo-7/Capitulo-7-feTile.jpg)
 
 
 ~~~~~~~

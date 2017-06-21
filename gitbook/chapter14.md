@@ -12,7 +12,7 @@ Polynom es un editor online. Con este editor podemos crear de forma fácil *path
 
 [Polynom](polynom.co)
 
-![](images/capitulo-14/Capitulo-14-polynom.jpg)
+![](images/Capitulo-14/Capitulo-14-polynom.jpg)
 
 ##SVGSON
 
@@ -26,7 +26,7 @@ Es una extensión para Chrome y Opera con la que podemos *debuggear* SVG. El fun
 
 [XVG](https://xvg.now.sh)
 
-![](images/capitulo-14/Capitulo-14-xvg.jpg)
+![](images/Capitulo-14/Capitulo-14-xvg.jpg)
 
 ##SVGI
 

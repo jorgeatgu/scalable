@@ -23,7 +23,7 @@ Además de poder rellenarlos con color, los atributos ***fill*** y ***stroke*** 
 
 La opacidad del relleno la podemos modificar a través del atributo `fill-opacity=””`
 
-![](images/capitulo-4/Capitulo-4-fill-opacity.jpg)
+![](images/Capitulo-4/Capitulo-4-fill-opacity.jpg)
 
 
 ~~~~~~~
@@ -38,7 +38,7 @@ También tenemos la posibilidad a través del atributo ***fill-rule*** de determ
 
 En el ejemplo a través de un `<path>` he dibujado dos rectángulos, en el código lo he diferenciado añadiendo un retorno para que queden bien diferenciadas uno del otro, otra manera de saber cuando termina un trazado es buscar en el código la letra Z o z, esta corresponde al comando closepath(que vamos a ver más adelante) y con este comando le decimos que cierre el trazado.
 
-![](images/capitulo-4/Capitulo-4-fill-rule.jpg)
+![](images/Capitulo-4/Capitulo-4-fill-rule.jpg)
 
 
 ~~~~~~~
@@ -66,7 +66,7 @@ Con el atributo ***stroke-opacity*** vamos a definir la opacidad que va a tener 
 
 Con el atributo ***stroke-dasharray*** vamos a definir la longitud de las líneas y el espacio que las separa a través de dos valores.
 
-![](images/capitulo-4/Capitulo-4-stroke-dasharray.jpg)
+![](images/Capitulo-4/Capitulo-4-stroke-dasharray.jpg)
 
 
 ~~~~~~~
@@ -79,7 +79,7 @@ Con el atributo ***stroke-dasharray*** vamos a definir la longitud de las línea
 
 Con el atributo ***stroke-dashoffset*** vamos a definir la distancia a la que queremos que comiencen los guiones. Este atributo admite valores negativos y lo podemos expresar en porcentajes.
 
-![](images/capitulo-4/Capitulo-4-stroke-dashoffset.jpg)
+![](images/Capitulo-4/Capitulo-4-stroke-dashoffset.jpg)
 
 
 ~~~~~~~
@@ -91,7 +91,7 @@ Con el atributo ***stroke-dashoffset*** vamos a definir la distancia a la que qu
 
 Con el atributo ***stroke-linecap*** podemos modificar la forma inicial y final de la línea, para ello disponemos de tres opciones, la primera es ***butt*** que es el valor por defecto, la segunda ***round*** que redondea la forma y aumenta el tamaño de la línea y por último ***square*** que mantiene la forma rectangular pero también aumenta el tamaño de la línea.
 
-![](images/capitulo-4/Capitulo-4-stroke-linecap.jpg)
+![](images/Capitulo-4/Capitulo-4-stroke-linecap.jpg)
 
 
 ~~~~~~~
@@ -104,7 +104,7 @@ Con el atributo ***stroke-linecap*** podemos modificar la forma inicial y final 
 
 Con el atributo ***stroke-line-join*** vamos a determinar la forma que van a tener las esquinas de los trazados y de las formas básicas. Su valor por defecto es ***miter***, para redondearlas tenemos ***round*** y para que tengan forma de bisel tenemos ***bevel***.
 
-![](images/capitulo-4/Capitulo-4-stroke-linejoin.jpg)
+![](images/Capitulo-4/Capitulo-4-stroke-linejoin.jpg)
 
 
 ~~~~~~~
@@ -118,7 +118,7 @@ Con el atributo ***stroke-line-join*** vamos a determinar la forma que van a ten
 
 Con el atributo ***stroke-miterlimit*** vamos a comparar la longitud del ángulo con la anchura del trazado. Cuando se supere el valor que le hemos dado la unión sera biselada. Su valor por defecto es de 4.
 
-![](images/capitulo-4/Capitulo-4-stroke-miterlimit.jpg)
+![](images/Capitulo-4/Capitulo-4-stroke-miterlimit.jpg)
 
 
 ~~~~~~~
@@ -150,7 +150,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde del rectáng
 
 Para que los rectángulos tengan las esquinas redondeadas tenemos los atributos `rx=””` para el eje horizontal, y `ry=””` para el eje vertical. Si solamente indicamos un valor en `rx=””` este también servirá para `ry=””`.
 
-![](images/capitulo-4/Capitulo-4-rect.jpg)
+![](images/Capitulo-4/Capitulo-4-rect.jpg)
 
 
 ~~~~~~~
@@ -177,7 +177,7 @@ Con el atributo ***stroke*** determinamos el color de relleno del borde del cír
 
 Con el atributo ***stroke-width*** determinamos el grosor del borde del círculo.
 
-![](images/capitulo-4/Capitulo-4-circle.jpg)
+![](images/Capitulo-4/Capitulo-4-circle.jpg)
 
 
 ~~~~~~~
@@ -204,7 +204,7 @@ Con el atributo ***stroke*** determinamos el color de relleno del borde de la el
 
 Con el atributo ***stroke-width*** determinamos el grosor del borde de la elipse.
 
-![](images/capitulo-4/Capitulo-4-ellipse.jpg)
+![](images/Capitulo-4/Capitulo-4-ellipse.jpg)
 
 
 ~~~~~~~
@@ -231,7 +231,7 @@ Con el atributo ***stroke*** determinamos el color de relleno de la línea.
 
 Con el atributo ***stroke-width*** determinamos el grosor de la línea.
 
-![](images/capitulo-4/Capitulo-4-line.jpg)
+![](images/Capitulo-4/Capitulo-4-line.jpg)
 
 
 ~~~~~~~
@@ -242,7 +242,7 @@ Con el atributo ***stroke-width*** determinamos el grosor de la línea.
 
 Tenemos un camino más fácil para generar solamente una línea, para ello tenemos que utilizar los atributos ***x2*** e ***y2***, hay que tener en cuenta que de esta manera no vamos a poder obtener una línea recta.
 
-![](images/capitulo-4/Capitulo-4-lineDos.jpg)
+![](images/Capitulo-4/Capitulo-4-lineDos.jpg)
 
 
 ~~~~~~~
@@ -266,7 +266,7 @@ Con el atributo ***stroke-width*** determinamos el grosor del borde del polyline
 
 Antes de continuar voy a hacer una aclaración, como podéis ver en la lista de atributos tenemos a nuestra disposición ***fill***, el cual como hemos visto en varias ocasiones sirve para rellenar el fondo de un elemento del color que le indicamos, en `<polyline>` y aunque el trazado no está cerrado por defecto nos va a aplicar un relleno de color negro, pero ¿que rellena? pues traza una línea imaginaria desde el último punto hasta el primer punto y la rellena de negro, así que hay que decirle que `fill=”none”` o indicarle el color que nosotros queramos.
 
-![](images/capitulo-4/Capitulo-4-polyline.jpg)
+![](images/Capitulo-4/Capitulo-4-polyline.jpg)
 
 
 ~~~~~~~
@@ -288,7 +288,7 @@ Con el atributo ***stroke*** determinamos el color de relleno del borde del pol�
 
 Con el atributo ***stroke-width*** determinamos el grosor del borde del polígono.
 
-![](images/capitulo-4/Capitulo-4-polygon.jpg)
+![](images/Capitulo-4/Capitulo-4-polygon.jpg)
 
 
 ~~~~~~~
@@ -303,7 +303,7 @@ La etiqueta `<path>` es la piedra angular de las formas básicas, es la que suel
 
 A continuación vamos a ver una serie de comandos para dibujar con `<path>`, todos ellos están representado con una letra, y esta puede ser en mayúscula o en minúscula, la letra mayúscula representa coordenadas absolutas para el sistema de coordenadas actual, y la letra minúscula es relativa, lo cual quiere decir que es relativa con la posición del último comando que dibujo en el trazado. Vamos a ver un ejemplo que nos va a aclarar a la perfección esta pequeña pero gran diferencia.
 
-![](images/capitulo-4/Capitulo-4-path-absolutas-relativas.jpg)
+![](images/Capitulo-4/Capitulo-4-path-absolutas-relativas.jpg)
 
 Estas dos líneas como podemos apreciar en el código comparten las mismas coordenadas, la única diferencia que podemos ver es que las coordenadas del primer `<path>` están acompañadas por letras mínusculas lo cual las convierte en coordenadas relativas aumentando considerablemente la longitud del trazado, la primera coordenada le dice que comience en 425,225 y la segunda coordenada que se desplace 475pixels a lo largo de la coordenada horizontal y 175pixels a lo largo de la coordenada vertical. Las coordenadas del segundo `<path>` están acompañadas por letras mayúsculas lo cual las convierte en absolutas, así el trazado comienza igualmente en 425,225 pero solamente se desplaza hasta la coordenada 475,275, es decir 50pixels en su coordenada horizontal y otros 50 en su coordenada vertical.
 
@@ -342,7 +342,7 @@ Los comandos en minúsculas indican posiciones relativas.
 
 A continuación vamos a ver un ejemplo utilizando ***moveto*** y ***lineto***.
 
-![](images/capitulo-4/Capitulo-4-moveto.jpg)
+![](images/Capitulo-4/Capitulo-4-moveto.jpg)
 
 
 ~~~~~~~
@@ -385,7 +385,7 @@ Los comandos en minúsculas indican posiciones relativas.
 
 Vamos a ver los dos comandos en el mismo ejemplo.
 
-![](images/capitulo-4/Capitulo-4-path-horizontalto.jpg)
+![](images/Capitulo-4/Capitulo-4-path-horizontalto.jpg)
 
 
 ~~~~~~~
@@ -409,7 +409,7 @@ Los comandos en minúsculas indican posiciones relativas.
 
 En el ejemplo que vamos a ver a continuación el trazado comienza con `M130,130`. La curva se empieza a generar con `C440,440` continúa con `560,540` y finaliza con `770,430`.
 
-![](images/capitulo-4/Capitulo-4-curveTo.jpg)
+![](images/Capitulo-4/Capitulo-4-curveTo.jpg)
 
 
 ~~~~~~~
@@ -430,7 +430,7 @@ Los comandos en minúsculas indican posiciones relativas.
 | S | x y x2 y2 | smooth curveto
 | s  | x y x2 y2 | smooth curveto
 
-![](images/capitulo-4/Capitulo-4-smoothCurveTo.jpg)
+![](images/Capitulo-4/Capitulo-4-smoothCurveTo.jpg)
 
 
 ~~~~~~~
@@ -456,7 +456,7 @@ La segunda coordenada de Q(quadratic bezier) corresponde a ***x,y*** en este cas
 
 La coordenada de T(smooth quadratic bezier) corresponde a ***x,y*** en este caso se prolonga hasta `1000,300`.
 
-![](images/capitulo-4/Capitulo-4-smoothCuadraticCurveTo.jpg)
+![](images/Capitulo-4/Capitulo-4-smoothCuadraticCurveTo.jpg)
 
 
 ~~~~~~~
@@ -474,7 +474,7 @@ Con el comando ***arc*** dibujamos un arco elíptico desde las coordenadas ***x*
 | A | rx ry x-eje large-arc-flag sweep-flag | smooth curveto
 | a  | rx ry x-eje large-arc-flag sweep-flag | smooth curveto
 
-![](images/capitulo-4/Capitulo-4-path-arc.jpg)
+![](images/Capitulo-4/Capitulo-4-path-arc.jpg)
 
 
 ~~~~~~~

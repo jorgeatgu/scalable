@@ -108,6 +108,6 @@ Es una herramienta web creada por **Doug Scheepers** para hacer más accesibles 
 
 Una vez que estamos en la web de [describler](http://describler.com/) tenemos que subir nuestros archivos **SVG**, cuando lo hayamos subido veremos todo el código de nuestro archivo a la derecha, la propia herramienta se encarga de añadir `<title>` y `<desc>` a cada uno de nuestros elementos, podemos incluir un título y una descripción a nuestros elementos y una vez que hayamos terminado podemos escuchar lo que interpreta un ***screenreader***, la voz es en inglés, así que cualquier texto en castellano estará interpretado por una voz inglesa. Por último tenemos la opción de descargarnos el archivo con todas las etiquetas que hemos incluído. Mucho ojo ya que deja el ***width*** y el ***height*** 100% de tamaño lo cual inhabilita el zoom en los navegadores.
 
-![](images/capitulo-13/wai-aria-describler.jpg)
+![](images/Capitulo-13/wai-aria-describler.jpg)
 
 

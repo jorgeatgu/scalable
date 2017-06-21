@@ -17,7 +17,7 @@ Con esta transformación vamos a desplazar el objeto horizontal y verticalmente 
 
 En el código que vamos a ver a continuación los dos rectángulos están posicionados en las mismas coordenadas, el primer rectángulo no sufre ninguna transformación, en cambio al segundo le aplicamos la siguiente transformación `transform="translate(60 100)"` la cual desplaza 60 ***pixels*** hacia la derecha el rectángulo y 100 ***pixels*** hacia abajo.
 
-![](images/capitulo-6/Capitulo-6-translate.jpg)
+![](images/Capitulo-6/Capitulo-6-translate.jpg)
 
 
 ~~~~~~~
@@ -42,7 +42,7 @@ Al tercer rectángulo de color azul le damos los dos valores opcionales `transfo
 
 Al cuarto rectángulo de color cyan lo vamos a rotar desde su centro con `transform="rotate(20 575 175)"` para rotarlo desde su centro el primer valor lo obtenemos de sumar su posición en la coordenada horizontal `x="500"` más la mitad de su anchura `width="150"` así 500+75 = 575. El segundo valor lo obtenemos de sumar su posición en la coordenada vertical `y=100` más la mitad de su altura `height="150"` así 100+75 = 175.
 
-![](images/capitulo-6/Capitulo-6-rotate.jpg)
+![](images/Capitulo-6/Capitulo-6-rotate.jpg)
 
 
 ~~~~~~~
@@ -58,7 +58,7 @@ Al cuarto rectángulo de color cyan lo vamos a rotar desde su centro con `transf
 
 Con esta transformación vamos a escalar el objeto, para ello contamos con dos valores, uno para la coordenada horizontal con ***x*** y el otro para la coordenada vertical con ***y***. Si tan sólo pasamos el primer valor la transformación se aplicará a los dos valores.
 
-![](images/capitulo-6/Capitulo-6-scale.jpg)
+![](images/Capitulo-6/Capitulo-6-scale.jpg)
 
 
 ~~~~~~~
@@ -74,7 +74,7 @@ Con esta transformación vamos a sesgar el objeto a lo largo de su coordenada **
 
 En el ejemplo que vamos a ver a continuación se puede apreciar como el rectángulo se estira horizontalmente hacia su derecha.
 
-![](images/capitulo-6/Capitulo-6-skewX.jpg)
+![](images/Capitulo-6/Capitulo-6-skewX.jpg)
 
 
 ~~~~~~~
@@ -90,7 +90,7 @@ Como su nombre indica esta transformación es hermana de ***skewX*** pero en est
 
 En el ejemplo que vamos a ver a continuación se puede apreciar como el rectángulo se estira verticalmente hacia abajo.
 
-![](images/capitulo-6/Capitulo-6-skewY.jpg)
+![](images/Capitulo-6/Capitulo-6-skewY.jpg)
 
 
 ~~~~~~~
@@ -157,7 +157,7 @@ Este cuarto resultado sustituirá al valor que tenemos en ***y2***
 
 Así que después de todas las operaciones el resultado que se aplicará al elemento `<line>` es el siguiente:
 
-![](images/capitulo-6/Capitulo-6-matrix.jpg)
+![](images/Capitulo-6/Capitulo-6-matrix.jpg)
 
 
 ~~~~~~~

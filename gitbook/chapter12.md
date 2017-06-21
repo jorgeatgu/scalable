@@ -15,35 +15,35 @@ Una vez descargado e instalado vamos a abrir el programa, una vez que el program
 ###FILES
 Es la primera pantalla, arriba a la derecha tenemos dos iconos, el primero de ellos sirve para añadir archivos sueltos y el segundo de ellos para añadir carpetas, una vez añadidos los archivos vamos a verlos reflejados en la pantalla, si por lo que fuera se cuela algún archivo que no queremos optimizar tenemos la opción de borrarlo o de desmarcarlo para que no sea optimizado.
 
-![](images/capitulo-12/optimizar-svg-cleaner-files.jpg)
+![](images/Capitulo-12/optimizar-svg-cleaner-files.jpg)
 
 En la parte inferior tenemos las tres opciones de las que disponemos para guardar los archivos. La primera guarda los archivos en la carpeta que le indiquemos, la segunda guardará los archivos en la misma carpeta que los originales pero nos da la opción de añadir un prefijo o sufijo al nombre del archivo para así no sobreescribir el original. La última opción que tenemos es la sobreescribir el archivo original, esta última la vamos a descartar a no ser que ya tengamos hecha una copia del original.
 
 ###Preferences
 Aquí podemos indicar el nivel de optimización que queramos, puede ser ***basic, complete, extreme o custom***.
-![](images/capitulo-12/optimizar-svg-cleaner-preferences.jpg)
+![](images/Capitulo-12/optimizar-svg-cleaner-preferences.jpg)
 
 ###Elements
 En primer lugar tenemos los elementos, destacar de todos ellos la limpieza que hace de los ***namespaces*** de los elementos que generan los programas que exportan **SVG**.
 
-![](images/capitulo-12/optimizar-svg-cleaner-elements.jpg)
+![](images/Capitulo-12/optimizar-svg-cleaner-elements.jpg)
 
 ###Attributes
 Ahora vamos con los atributos, cosas a destacar, que elimine todos los atributos que vengan con su valor por defecto y también aquellos que no tienen un valor declarado.
 
-![](images/capitulo-12/optimizar-svg-cleaner-attributtes.jpg)
+![](images/Capitulo-12/optimizar-svg-cleaner-attributtes.jpg)
 
 ###Paths
 Convierte las coordenadas absolutas en relativas. Elimina los símbolos que son innecesarios.
 
-![](images/capitulo-12/optimizar-svg-cleaner-paths.jpg)
+![](images/Capitulo-12/optimizar-svg-cleaner-paths.jpg)
 
 ###Optimizations
 Por último vamos con las optimizaciones, simplifica los colores que estén en hexadecimal, y hace algo que no me gusta que es convertir las formas básicas en trazados.
 
 Las últimas tres opciones nos sirven para eliminar o redondear decimales, esto nos va a servir de gran utilidad si nuestros SVG proceden de programas como **Inkscape** en los que no tenemos la oportunidad de seleccionar con cuantos decimales queremos que se exporte nuestro **SVG**.
 
-![](images/capitulo-12/optimizar-svg-cleaner-optimizations.jpg)
+![](images/Capitulo-12/optimizar-svg-cleaner-optimizations.jpg)
 
 **SVGCLEANER** también está disponible para [descargar desde GitHub](https://github.com/RazrFalcon/SVGCleaner)
 
@@ -54,7 +54,7 @@ Las últimas tres opciones nos sirven para eliminar o redondear decimales, esto 
 
 Para el ejemplo he utilizado la versión con interfaz gráfica, en esta versión lo único que  podemos hacer es mandar los archivos que queremos comprimir dentro del programa, no tenemos disponible ninguna opción para configurar la optimización.
 
-![](images/capitulo-12/optimizar-svgogui.jpg)
+![](images/Capitulo-12/optimizar-svgogui.jpg)
 
 **SVGO** está disponible para [descargar desde GitHub](https://github.com/svg/svgo)
 
@@ -65,11 +65,11 @@ Por último vamos a ver una comparativa que hice a finales de enero de 2014 con 
 Para llevar a cabo este ejemplo he utilizado la página de [trabajos de mi web](http://jorgeatgu.com/trabajos) ya que es la que más **SVG** contiene de toda mi web. He pasado por **SVGO** todos los **SVG**.
 Para ver el impacto he clonado la página de trabajos y he colocado los **SVG** optimizados. Lo siguiente ha sido comparar las dos páginas en velocidad, para ello he utilizado [whichloadsfaster](http://whichloadsfaster.com/ ), que compara al mismo tiempo la velocidad de carga de dos webs. He hecho dos series para que no quede lugar a dudas. La primera serie ha sido de 10 repeticiones y el resultado es que después de pasar los **SVG** por **SVGO la página es un 56% más rápida, impresionante.**
 
-![](images/capitulo-12/optimizar-comparativa-diez.jpg)
+![](images/Capitulo-12/optimizar-comparativa-diez.jpg)
 
 La siguiente serie ha sido de 100 repeticiones y el resultado apenas ha variado, la página optimizada con **SVGO sigue siendo un 54% más rápida.**
 
-![](images/capitulo-12/optimizar-comparativa-cien.jpg)
+![](images/Capitulo-12/optimizar-comparativa-cien.jpg)
 
 El resultado como podéis apreciar es **impresionante**.
 
@@ -139,7 +139,7 @@ Por último dejo en mi Gist todo el código que he generado para [configurar **S
 
 A finales de enero de 2015 de la mano de [Jake Archibald](https://github.com/svg/svgo) nos llega la versión de SVGO online bajo el nombre de [SVGOMG](https://jakearchibald.github.io/svgomg/). La interfaz como podemos apreciar en la imagen es bastante simple y clara, esta herramienta es perfecta para aquellos a los que les da urticaria el terminal/consola, Grunt y Gulp.
 
-![](images/capitulo-12/optimizar-svgo-online.jpg)
+![](images/Capitulo-12/optimizar-svgo-online.jpg)
 
 
 Tenemos una demo en forma de coche para ir probando las diferentes opciones.

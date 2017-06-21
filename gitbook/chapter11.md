@@ -10,7 +10,7 @@ En ella podemos definir una serie de figuras y aplicarles los mismos colores de 
 
 Para mover un grupo vamos a tener que recurrir a `transform=”translate”` ya que no disponemos de las coordenadas ***x*** e ***y***. Lo mismo para el tamaño, el cuál si queremos modificar a la vez lo haremos con `transform=”scale”`.
 
-![](images/capitulo-11/Capitulo-11-group.jpg)
+![](images/Capitulo-11/Capitulo-11-group.jpg)
 
 
 ~~~~~~~
@@ -40,7 +40,7 @@ Todo el código que esté dentro de la etiquetas `<defs>` no se va a tener en cu
 
 Aunque su uso no es obligatorio la **W3C** recomienda utilizar estas etiquetas para hacer nuestro código mucho más accesible y legible. Vamos a ver unos ejemplo para que nos quede más claro su funcionamiento.
 
-![](images/capitulo-11/Capitulo-11-defs.jpg)
+![](images/Capitulo-11/Capitulo-11-defs.jpg)
 
 
 ~~~~~~~
@@ -61,7 +61,7 @@ Una advertencia, como podéis observar en el código los elementos `<rect>` y `<
 
 Vamos a ver qué podemos hacer si combinamos `<defs>` + `<use>` + `<g>`
 
-![](images/capitulo-11/Capitulo-11-defsGroup.jpg)
+![](images/Capitulo-11/Capitulo-11-defsGroup.jpg)
 
 
 ~~~~~~~
@@ -95,7 +95,7 @@ Vamos a ver cómo podemos aplicar un efecto de filtro, un patrón y un degradado
 
 El método es sencillo, una vez declarados nuestros efectos entre las etiquetas **SVG** vamos a crear una clase en nuestro achivo **CSS**, y en esa clase vamos a declarar el efecto por ejemplo el `<pattern>` declaramos con `fill: url(#patron)` ahora volvemos al HTML y aplicamos la clase al elemento que queremos que reciba el efecto.
 
-![](images/capitulo-11/Capitulo-11-useCSS.jpg)
+![](images/Capitulo-11/Capitulo-11-useCSS.jpg)
 
 {lang="css", linenos="off"}
 ~~~~~~~
@@ -266,7 +266,7 @@ Las buenas es que como siempre hay alguien haciendo cosas que molan por amor al 
 
 La demo que he subido a mi web lleva incluido el ***polyfill*** para que veáis que si que funciona en ese navegador llamado **Internet Explorer**.
 
-![](images/capitulo-11/Capitulo-11-internet-explorer-svgsprite.jpg)
+![](images/Capitulo-11/Capitulo-11-internet-explorer-svgsprite.jpg)
 
 ##svgxuse
 
@@ -283,11 +283,11 @@ Y para terminar una pequeña comparativa.
 
 Mi [página de trabajos](http://jorgeatgu.com/trabajos-object) con los **SVG** cargados a través de la etiqueta ```<object>``` mas un ***fallback*** para navegadores que no soportan **SVG**.
 
-![](images/capitulo-11/Capitulo-11-sin-svg-sprite-map.jpg)
+![](images/Capitulo-11/Capitulo-11-sin-svg-sprite-map.jpg)
 
 Mi [página de trabajos](http://jorgeatgu.com/trabajos) con los **SVG** cargados a través de ```images-sprites.svg``` sin ***fallback*** alguno.
 
-![](images/capitulo-11/Capitulo-11-con-svg-sprite-map.jpg)
+![](images/Capitulo-11/Capitulo-11-con-svg-sprite-map.jpg)
 
 Como podéis apreciar en las imágenes me ahorro un montón de ***request*** y la página carga **mucho más rápido**.
 
