@@ -28,4 +28,10 @@ Es una extensión para Chrome y Opera con la que podemos *debuggear* SVG. El fun
 
 ![](images/capitulo-14/Capitulo-14-xvg.jpg)
 
+##SVGI
+
+SVGI es una herramienta para la línea de comandos creada por [Angel](https://twitter.com/laux_es). Con esta herramienta vamos a obtener a través de un simple comando un montón de información super útil de cualquier **SVG**. La parte de estadísticas me parece increíble, así puedes ver de una sola vez cuantos elementos o nodos componen un **SVG**, que tamaño ocupa y la ruta donde esta alojado.
+
+[SVGI](https://angelmmiguel.github.io/svgi/)
+
 
